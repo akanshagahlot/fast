@@ -1,0 +1,166 @@
+/* ==============================
+   Aboutcta.css
+   Brand: #1E5F8A | #F47B20
+   Font: Inter (headings/buttons) + Roboto (body/tags)
+   Note: Inter & Roboto loaded globally via globals.css
+============================== */
+
+.acta-section {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(135deg, #1E5F8A 0%, #154869 60%, #0e3349 100%);
+  padding: 90px 6vw;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.acta-blob {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.12;
+  pointer-events: none;
+}
+
+.acta-blob1 {
+  width: 420px;
+  height: 420px;
+  background: #F47B20;
+  top: -120px;
+  right: -80px;
+}
+
+.acta-blob2 {
+  width: 280px;
+  height: 280px;
+  background: #ffffff;
+  bottom: -80px;
+  left: -60px;
+}
+
+.acta-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.acta-tag {
+  display: inline-block;
+  background: rgba(244, 123, 32, 0.2);
+  color: #F47B20;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 50px;
+  border: 1.5px solid rgba(244, 123, 32, 0.4);
+  margin-bottom: 20px;
+}
+
+.acta-title {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0 0 18px;
+}
+
+.acta-orange {
+  color: #F47B20;
+}
+
+.acta-desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.78;
+  margin: 0 0 36px;
+}
+
+.acta-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.acta-btn-primary {
+  background: linear-gradient(135deg, #F47B20, #d9660e);
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 15px 34px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 6px 24px rgba(244, 123, 32, 0.4);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.acta-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 36px rgba(244, 123, 32, 0.55);
+}
+
+.acta-btn-secondary {
+  background: transparent;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 14px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  transition: background 0.25s, border-color 0.25s, transform 0.25s;
+}
+
+.acta-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.8);
+  transform: translateY(-3px);
+}
+
+.acta-badges {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.acta-badge-item {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.65);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .acta-section {
+    padding: 60px 5vw;
+  }
+
+  .acta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .acta-badges {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}

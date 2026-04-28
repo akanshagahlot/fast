@@ -1,0 +1,133 @@
+/* ==========================================
+   ContactHero.css
+   Font: Inter (headings) + Roboto (body)
+   Note: Inter & Roboto loaded globally via globals.css
+========================================== */
+
+.ch-section {
+  position: relative;
+  background: linear-gradient(120deg, #0e3349 0%, #1E5F8A 60%, #154869 100%);
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Diagonal texture overlay */
+.ch-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.03) 0px,
+    rgba(255, 255, 255, 0.03) 1px,
+    transparent 1px,
+    transparent 20px
+  );
+  pointer-events: none;
+}
+
+/* Orange bottom bar accent */
+.ch-section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #F47B20, #ffa04d, #F47B20);
+}
+
+.ch-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.ch-text {
+  flex: 1;
+}
+
+.ch-tag {
+  display: block;
+  width: fit-content;
+  background: rgba(244, 123, 32, 0.2);
+  color: #F47B20;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  border-radius: 50px;
+  border: 1.5px solid rgba(244, 123, 32, 0.45);
+  margin-bottom: 18px;
+}
+
+.ch-title {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 800;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.05;
+  margin: 0 0 20px;
+}
+
+.ch-orange { color: #F47B20; }
+
+.ch-breadcrumb {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.ch-breadcrumb a {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.ch-breadcrumb a:hover { color: #F47B20; }
+
+.ch-sep {
+  color: #F47B20;
+  font-weight: 700;
+}
+
+.ch-active {
+  color: #F47B20;
+  font-weight: 700;
+}
+
+.ch-image {
+  flex: 0 0 380px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.ch-image img {
+  max-height: 340px;
+  max-width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.35));
+}
+
+@media (max-width: 768px) {
+  .ch-image { display: none; }
+  .ch-title { font-size: 3rem; }
+}

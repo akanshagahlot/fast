@@ -1,0 +1,207 @@
+/* ==========================================
+   ContactForm.css
+   Font: Inter (headings) + Roboto (body)
+   Note: Inter & Roboto loaded globally via globals.css
+========================================== */
+
+.cf-section {
+  background: #ffffff;
+  padding: 90px 6vw;
+  font-family: "Roboto", sans-serif;
+}
+
+.cf-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.9fr 1.5fr;
+  gap: 70px;
+  align-items: start;
+}
+
+.cf-tag {
+  display: inline-block;
+  color: #f47b20;
+  border: 1.5px solid rgba(244, 123, 32, 0.45);
+  padding: 8px 22px;
+  border-radius: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.cf-title {
+  font-family: "Inter", sans-serif;
+  font-size: 46px;
+  line-height: 1.15;
+  font-weight: 900;
+  color: #061d34;
+  text-transform: uppercase;
+  margin: 0 0 22px;
+}
+
+.cf-title span {
+  color: #f47b20;
+}
+
+.cf-desc {
+  font-family: "Roboto", sans-serif;
+  color: #4b6075;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 45px;
+}
+
+.cf-info-box {
+  background: #f7f7f7;
+  padding: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.cf-info-item {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.cf-info-icon {
+  width: 54px;
+  height: 54px;
+  border: 2px solid #f47b20;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f47b20;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cf-info-item p {
+  font-family: "Roboto", sans-serif;
+  color: #f47b20;
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+
+.cf-info-item h3 {
+  font-family: "Inter", sans-serif;
+  color: #061d34;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.cf-right {
+  background: #f7f7f7;
+  padding: 45px;
+}
+
+.cf-form-title {
+  font-family: "Inter", sans-serif;
+  color: #061d34;
+  font-size: 46px;
+  font-weight: 900;
+  margin: 0 0 35px;
+}
+
+.cf-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cf-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.cf-field {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cf-field label {
+  font-family: "Inter", sans-serif;
+  color: #061d34;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.cf-field input,
+.cf-field select,
+.cf-field textarea {
+  width: 100%;
+  background: #ffffff;
+  border: 1.5px solid #e2e2e2;
+  border-radius: 4px;
+  padding: 17px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #061d34;
+  outline: none;
+  box-sizing: border-box;
+  resize: none;
+  transition: 0.25s ease;
+}
+
+.cf-field input::placeholder,
+.cf-field textarea::placeholder {
+  color: #6d7885;
+}
+
+.cf-field input:focus,
+.cf-field select:focus,
+.cf-field textarea:focus {
+  border-color: #f47b20;
+  box-shadow: 0 0 0 3px rgba(244, 123, 32, 0.12);
+}
+
+.cf-btn {
+  margin-top: 5px;
+  background: #f47b20;
+  color: #ffffff;
+  border: none;
+  width: fit-content;
+  padding: 17px 36px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cf-btn:hover {
+  background: #061d34;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 900px) {
+  .cf-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .cf-row {
+    grid-template-columns: 1fr;
+  }
+
+  .cf-right {
+    padding: 30px 22px;
+  }
+
+  .cf-form-title,
+  .cf-title {
+    font-size: 36px;
+  }
+}

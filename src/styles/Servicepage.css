@@ -1,0 +1,463 @@
+/* ============================================
+   ServicePage.css  →  src/styles/ServicePage.css
+   Brand: #1E5F8A (Blue) | #F47B20 (Orange)
+   Font: Montserrat + Roboto (loaded globally)
+============================================ */
+
+.sp-main * { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ══════════════════════════════
+   HERO
+══════════════════════════════ */
+.sp-hero {
+  position: relative;
+  width: 100%;
+  min-height: 340px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background-color: #0d3b5e;
+}
+
+.sp-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.sp-hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.sp-hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    130deg,
+    rgba(9,  31, 51,  0.88) 0%,
+    rgba(30, 95, 138, 0.75) 55%,
+    rgba(13, 59, 94,  0.88) 100%
+  );
+}
+
+.sp-hero-texture {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.02) 0px,
+    rgba(255, 255, 255, 0.02) 1px,
+    transparent 1px,
+    transparent 34px
+  );
+}
+
+.sp-hero-bottom-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  z-index: 4;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    #f47b20     30%,
+    #f9a461     60%,
+    transparent 100%
+  );
+}
+
+.sp-hero-content {
+  position: relative;
+  z-index: 5;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 60px 40px 44px 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sp-hero-category {
+  display: inline-block;
+  background: #f47b20;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.sp-hero-title {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  font-size: clamp(32px, 5vw, 60px);
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.1;
+  text-transform: capitalize;
+}
+
+.sp-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+
+.sp-bc-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.sp-bc-link:hover { color: #fff; }
+.sp-bc-sep        { color: #f47b20; font-size: 12px; }
+.sp-bc-active     { color: #f47b20; font-weight: 700; }
+
+/* ══════════════════════════════
+   BODY
+══════════════════════════════ */
+.sp-body {
+  background: #f4f6f9;
+  padding: 60px 0 80px;
+}
+
+.sp-body-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 36px;
+  align-items: start;
+}
+
+/* ══════════════════════════════
+   MAIN CONTENT
+══════════════════════════════ */
+.sp-content {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 36px 36px 44px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+}
+
+/* Main top image */
+.sp-main-img-wrap {
+  width: 100%;
+  height: auto;          /* ← was 400px, now grows with image */
+  border-radius: 12px;
+  overflow: hidden;
+  background: #d0dce8;
+}
+
+.sp-main-img {
+  width: 100%;
+  height: auto;          /* ← was 100%, now natural aspect ratio */
+  object-fit: contain;   /* ← was cover (crops), now full image shows */
+  object-position: center;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.sp-main-img-wrap:hover .sp-main-img {
+  transform: scale(1.03);
+}
+
+/* Content Title */
+.sp-content-title {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  font-size: clamp(22px, 3vw, 32px);
+  font-weight: 900;
+  color: #0d3b5e;
+  line-height: 1.2;
+}
+
+/* Paragraphs */
+.sp-content-para {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 1.85;
+  color: #555;
+}
+
+/* 2-image grid */
+.sp-img-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.sp-grid-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  background: #d0dce8;
+}
+
+/* ── Choose Services ── */
+.sp-choose {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 8px;
+  border-top: 2px solid #f4f6f9;
+}
+
+.sp-choose-title {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #0d3b5e;
+}
+
+.sp-choose-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.sp-choose-img-wrap {
+  height: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #d0dce8;
+}
+
+.sp-choose-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Features checklist */
+.sp-features-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+}
+
+.sp-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+}
+
+.sp-feature-check {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(244, 123, 32, 0.12);
+  border: 1.5px solid #f47b20;
+  color: #f47b20;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-weight: 900;
+}
+
+/* ══════════════════════════════
+   SIDEBAR
+══════════════════════════════ */
+.sp-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: sticky;
+  top: 90px;
+}
+
+/* ── Main Services List Card ── */
+.sp-sidebar-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+}
+
+.sp-sidebar-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  background: #0d3b5e;
+  padding: 16px 20px;
+  margin: 0;
+}
+
+.sp-services-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sp-service-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 20px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #444;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s, color 0.2s, padding-left 0.2s;
+}
+
+.sp-service-link:last-child { border-bottom: none; }
+
+.sp-service-link:hover,
+.sp-service-link--active {
+  background: #f47b20;
+  color: #fff;
+  padding-left: 26px;
+}
+
+.sp-service-arrow {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.sp-service-link:hover .sp-service-arrow,
+.sp-service-link--active .sp-service-arrow {
+  opacity: 1;
+  color: #fff;
+}
+
+/* ── Call Card ── */
+.sp-call-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+}
+
+.sp-call-card-img-wrap {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  background: #d0dce8;
+}
+
+.sp-call-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.sp-call-card-body {
+  background: #0d3b5e;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.sp-call-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #f47b20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  animation: callPulse 2s ease-in-out infinite;
+}
+
+@keyframes callPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(244, 123, 32, 0.5); }
+  50%       { box-shadow: 0 0 0 10px rgba(244, 123, 32, 0); }
+}
+
+.sp-call-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.sp-call-number {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: #f47b20;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.sp-call-btn {
+  display: inline-block;
+  background: #f47b20;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 11px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 4px;
+  width: 100%;
+  text-align: center;
+  transition: background 0.25s, transform 0.2s;
+}
+
+.sp-call-btn:hover {
+  background: #d9650e;
+  transform: translateY(-2px);
+}
+
+/* ══════════════════════════════
+   RESPONSIVE
+══════════════════════════════ */
+@media (max-width: 1024px) {
+  .sp-body-inner { grid-template-columns: 1fr 280px; }
+}
+
+@media (max-width: 900px) {
+  .sp-body-inner {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+  .sp-sidebar      { position: static; }
+  .sp-hero-content { padding: 50px 20px 40px 28px; }
+  .sp-content      { padding: 24px 20px 32px; }
+}
+
+@media (max-width: 600px) {
+  .sp-img-grid        { grid-template-columns: 1fr; }
+  .sp-choose-layout   { grid-template-columns: 1fr; }
+  .sp-hero-title      { font-size: 28px; }
+}

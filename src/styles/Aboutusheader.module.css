@@ -1,0 +1,288 @@
+/* ========== VARIABLES ==========
+   Font: Inter (headings) + Roboto (body)
+   Note: Inter & Roboto loaded globally via globals.css
+   ========== */
+
+:root {
+  --blue-primary: #1e5f8a;
+  --blue-dark: #0d3b5e;
+  --blue-mid: #17527a;
+  --orange: #f47b20;
+  --orange-light: #f9a461;
+  --white: #ffffff;
+  --white-alpha: rgba(255, 255, 255, 0.08);
+  --text-muted: rgba(255, 255, 255, 0.65);
+}
+
+/* ========== SECTION ========== */
+.headerSection {
+  position: relative;
+  width: 100%;
+  min-height: 420px;
+  background: linear-gradient(130deg, var(--blue-dark) 0%, var(--blue-primary) 60%, #1a6b9a 100%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ========== DIAGONAL GRID OVERLAY ========== */
+.gridOverlay {
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 0.03) 0px,
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px,
+      transparent 40px
+    );
+  pointer-events: none;
+}
+
+/* ========== FLOATING CIRCLES ========== */
+.circleAccent1 {
+  position: absolute;
+  right: -80px;
+  top: -80px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(244, 123, 32, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.circleAccent2 {
+  position: absolute;
+  left: 40%;
+  bottom: -60px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ========== ORANGE BOTTOM BORDER ========== */
+.bottomBorder {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--orange) 0%, var(--orange-light) 50%, var(--orange) 100%);
+}
+
+/* ========== CONTAINER ========== */
+.container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+/* ========== LEFT CONTENT ========== */
+.leftContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* ========== BADGE ========== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(244, 123, 32, 0.15);
+  border: 1px solid rgba(244, 123, 32, 0.4);
+  color: var(--orange-light);
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 7px 16px;
+  border-radius: 30px;
+  width: fit-content;
+  text-transform: uppercase;
+}
+
+.badgeDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--orange);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.8); }
+}
+
+/* ========== HEADING ========== */
+.heading {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(52px, 7vw, 90px);
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1;
+  letter-spacing: -2px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: var(--orange);
+}
+
+/* ========== UNDERLINE ========== */
+.headingUnderline {
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--orange), transparent);
+  border-radius: 2px;
+}
+
+/* ========== TAGLINE ========== */
+.tagline {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: var(--text-muted);
+  margin: 0;
+  max-width: 380px;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+/* ========== BREADCRUMB ========== */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.breadcrumbLink {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumbLink:hover {
+  color: var(--white);
+}
+
+.breadcrumbSep {
+  color: var(--orange);
+  font-size: 12px;
+}
+
+.breadcrumbActive {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+/* ========== RIGHT PANEL ========== */
+.rightPanel {
+  flex-shrink: 0;
+}
+
+.statsCard {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 32px 36px;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 80px;
+}
+
+.statNumber {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--orange);
+  line-height: 1;
+}
+
+.statLabel {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  color: var(--text-muted);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.statDivider {
+  width: 1px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ========== ANIMATIONS ========== */
+.animateIn {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animateIn:nth-child(1) { transition-delay: 0.1s; }
+.animateIn:nth-child(2) { transition-delay: 0.2s; }
+.animateIn:nth-child(3) { transition-delay: 0.3s; }
+.animateIn:nth-child(4) { transition-delay: 0.4s; }
+.animateIn:nth-child(5) { transition-delay: 0.5s; }
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 24px;
+  }
+
+  .statsCard {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 24px;
+  }
+
+  .statDivider {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 48px;
+  }
+
+  .statsCard {
+    justify-content: center;
+    width: 100%;
+  }
+}

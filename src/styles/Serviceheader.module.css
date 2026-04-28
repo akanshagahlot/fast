@@ -1,0 +1,282 @@
+/* ========== VARIABLES ========== */
+:root {
+  --blue-primary: #1e5f8a;
+  --blue-dark: #0d3b5e;
+  --blue-deep: #0a2f4e;
+  --orange: #f47b20;
+  --orange-light: #f9a461;
+  --white: #ffffff;
+  --text-muted: rgba(255, 255, 255, 0.6);
+}
+
+/* ========== SECTION ========== */
+.headerSection {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  background: linear-gradient(155deg, var(--blue-deep) 0%, var(--blue-dark) 40%, var(--blue-primary) 100%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* ========== HATCH TEXTURE ========== */
+.hatchTexture {
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.025) 0px,
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px,
+      transparent 28px
+    );
+  pointer-events: none;
+}
+
+/* ========== LEFT ACCENT BAR ========== */
+.leftAccentBar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background: linear-gradient(180deg, transparent, var(--orange) 30%, var(--orange-light) 70%, transparent);
+}
+
+/* ========== BOTTOM BORDER ========== */
+.bottomBorder {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent 0%, var(--orange) 30%, var(--orange-light) 60%, transparent 100%);
+}
+
+/* ========== TOP CORNER SHAPE ========== */
+.topCornerShape {
+  position: absolute;
+  top: -40px;
+  right: 180px;
+  width: 140px;
+  height: 140px;
+  border: 2px solid rgba(244, 123, 32, 0.15);
+  border-radius: 4px;
+  transform: rotate(20deg);
+  pointer-events: none;
+}
+
+/* ========== CONTAINER ========== */
+.container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px 80px 56px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* ========== INNER WRAPPER ========== */
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+/* ========== BADGE ========== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(244, 123, 32, 0.18);
+  border: 1px solid rgba(244, 123, 32, 0.45);
+  color: var(--orange-light);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 3.5px;
+  padding: 7px 16px;
+  border-radius: 4px;
+  width: fit-content;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
+.badgeIcon {
+  font-size: 13px;
+  filter: grayscale(0);
+}
+
+/* ========== HEADING ROW ========== */
+.headingRow {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.heading {
+  font-family: "Roboto", "Arial Black", sans-serif;
+  font-size: clamp(48px, 7vw, 88px);
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1;
+  letter-spacing: -2px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: var(--orange);
+  position: relative;
+  display: inline-block;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--orange);
+  border-radius: 2px;
+  opacity: 0.5;
+}
+
+/* ========== DESCRIPTION ========== */
+.description {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0;
+  max-width: 400px;
+  line-height: 1.75;
+  font-style: italic;
+}
+
+/* ========== BREADCRUMB ========== */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  margin-top: 6px;
+  font-family: "Inter", sans-serif;
+}
+
+.breadcrumbLink {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumbLink:hover {
+  color: var(--white);
+}
+
+.sep {
+  color: var(--orange);
+  font-size: 12px;
+}
+
+.breadcrumbActive {
+  color: var(--orange);
+  font-weight: 700;
+}
+
+/* ========== ICON GRID ========== */
+.iconGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.iconCard {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 110px;
+  cursor: default;
+  transition: background 0.25s, border-color 0.25s, transform 0.2s;
+}
+
+.iconCard:hover {
+  background: rgba(244, 123, 32, 0.15);
+  border-color: rgba(244, 123, 32, 0.4);
+  transform: translateY(-3px);
+}
+
+.iconImg {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.iconLabel {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1.3;
+  font-family: "Inter", sans-serif;
+}
+
+/* ========== ANIMATIONS ========== */
+.animateIn {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animateIn:nth-child(1) { transition-delay: 0.1s; }
+.animateIn:nth-child(2) { transition-delay: 0.22s; }
+.animateIn:nth-child(3) { transition-delay: 0.34s; }
+.animateIn:nth-child(4) { transition-delay: 0.46s; }
+.animateIn:nth-child(5) { transition-delay: 0.58s; }
+
+.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 24px 60px 32px;
+  }
+
+  .iconGrid {
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+  }
+
+  .iconCard {
+    width: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .heading {
+    font-size: 44px;
+  }
+
+  .iconGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
