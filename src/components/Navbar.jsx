@@ -34,7 +34,6 @@ export default function Navbar() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // Body scroll lock when mobile menu open
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
     return () => { document.body.style.overflow = ""; };
@@ -259,14 +258,24 @@ export default function Navbar() {
             </Link>
           </li>
 
-          {/* Mobile Services Accordion */}
+          {/* ✅ Mobile Services — Link opens page, Arrow toggles dropdown */}
           <li className="mobileAccordion">
-            <button
-              className="mobileAccordion__btn"
-              onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-            >
-              Service <span>{mobileServicesOpen ? "▴" : "▾"}</span>
-            </button>
+            <div className="mobileAccordion__row">
+              <Link
+                href="/services"
+                onClick={closeAll}
+                className={`mobileAccordion__label ${isServiceActive() ? "nav-active" : ""}`}
+              >
+                Service
+              </Link>
+              <button
+                className="mobileAccordion__arrow"
+                onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                aria-label="Toggle Services"
+              >
+                {mobileServicesOpen ? "▴" : "▾"}
+              </button>
+            </div>
             {mobileServicesOpen && (
               <ul className="mobileAccordion__submenu">
                 <li><Link href="/services/homeshifting"     onClick={closeAll}>Home Shifting</Link></li>

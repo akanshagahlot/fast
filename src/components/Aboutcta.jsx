@@ -20,7 +20,7 @@ export default function AboutCTA() {
         </p>
 
         <div className="acta-buttons">
-          <Link href="/quote" className="acta-btn-primary">
+          <Link href="/contact" className="acta-btn-primary">
             Get Free Quote →
           </Link>
           <a href="tel:+919876543210" className="acta-btn-secondary">

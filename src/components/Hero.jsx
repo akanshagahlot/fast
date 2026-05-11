@@ -12,7 +12,7 @@ export default function Hero() {
         </p>
 
         <div className="heroButtons">
-          <a href="/quote">Get Quote</a>
+          <a href="/contact">Get Quote</a>
           <a href="/services">Our Services</a>
         </div>
       </div>

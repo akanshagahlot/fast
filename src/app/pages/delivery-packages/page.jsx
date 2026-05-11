@@ -1,5 +1,6 @@
 import DeliveryHero from "../../../components/DeliveryHero";
-import DeliveryPackages from "../../components/delivery/DeliveryPackages";
+import DeliveryPackages from "../../../components/DeliveryPackages";
+im
 
 export const metadata = {
   title: "Delivery Packages | Nex Go Packers & Movers",

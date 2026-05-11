@@ -5,21 +5,21 @@ import "../styles/footer.css";
 const quickLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
-  { label: "Branch", href: "/branch" },
-  { label: "Gallery", href: "/gallery" },
+  { label: "Blog", href: "/blog" },
+  { label: "Services", href: "/services" },
   { label: "Contact Us", href: "/contact" },
-  { label: "Get A Quote", href: "/quote" },
+  { label: "Get A Quote", href: "/contact" },
 ];
 
 const services = [
-  { label: "Home Shifting", href: "/services/home-shifting" },
-  { label: "Office Shifting", href: "/services/office-shifting" },
-  { label: "Loading & Unloading", href: "/services/loading-and-unloading" },
-  { label: "Packing & Unpacking", href: "/services/packing-and-unpacking" },
-  { label: "Warehouse Services", href: "/services/warehouse-services" },
-  { label: "Insurance Services", href: "/services/insurance-services" },
-  { label: "Logistics Services", href: "/services/logistics-services" },
-  { label: "Commercial Moving", href: "/services/commercial-moving" },
+  { label: "Home Shifting", href: "/services/homeshifting" },
+  { label: "Office Shifting", href: "/services/officeshifting" },
+  { label: "Loading & Unloading", href: "/services/loadingunloading" },
+  { label: "Packing & Unpacking", href: "/services/packingunpacking" },
+  { label: "Warehouse Services", href: "/services/warehouse" },
+  { label: "Insurance Services", href: "/services/insurance" },
+  { label: "Logistics Services", href: "/services/logistics" },
+  { label: "Commercial Moving", href: "/services/commercial" },
 ];
 
 const socials = [
@@ -148,7 +148,7 @@ export default function Footer() {
             </li>
           </ul>
 
-          <Link href="/quote" className="footer-cta">
+          <Link href="/contact" className="footer-cta">
             Get Free Quote →
           </Link>
         </div>
