@@ -4,16 +4,16 @@ import { useState, useEffect } from "react";
 
 export default function FloatingContactBar() {
   const [visible, setVisible] = useState(false);
-  const [tooltip, setTooltip] = useState(null);
 
   useEffect(() => {
     const timer = setTimeout(() => setVisible(true), 400);
     return () => clearTimeout(timer);
   }, []);
 
-  const phoneNumber = "+918100118089";
-  const whatsappNumber = "918100118089";
-  const whatsappMessage = "Hello! I would like to get a quote for your packing and moving services.";
+  // Primary business contact configurations
+  const phoneNumber = "+919265057478"; 
+  const whatsappNumber = "919265057478";
+  const whatsappMessage = "Hello Fast Professional Cargo Movers! I would like to get a quote for your packing and moving services.";
 
   return (
     <>
@@ -109,25 +109,25 @@ export default function FloatingContactBar() {
         }
 
         .call-btn .btn-icon-wrap {
-          background: #1E5F8A;
+          background: #1A0066;          /* Deep Navy Primary */
           border-radius: 8px 0 0 8px;
         }
 
         .whatsapp-btn .btn-icon-wrap {
-          background: #F47B20;
+          background: #FF6600;          /* Vibrant Cargo Orange */
           border-radius: 8px 0 0 8px;
           margin-top: 4px;
         }
 
         .call-btn .btn-label {
-          color: #1E5F8A;
-          border: 2px solid #1E5F8A;
+          color: #1A0066;               /* Deep Navy Primary */
+          border: 2px solid #1A0066;
           border-right: none;
         }
 
         .whatsapp-btn .btn-label {
-          color: #F47B20;
-          border: 2px solid #F47B20;
+          color: #FF6600;               /* Vibrant Cargo Orange */
+          border: 2px solid #FF6600;
           border-right: none;
         }
 
@@ -136,11 +136,11 @@ export default function FloatingContactBar() {
         }
 
         .call-btn:hover .btn-icon-wrap {
-          background: #164d73;
+          background: #100040;          /* Deep Navy Darkened */
         }
 
         .whatsapp-btn:hover .btn-icon-wrap {
-          background: #d4690f;
+          background: #CC5200;          /* Cargo Orange Darkened */
         }
 
         /* Pulse ring */
@@ -166,11 +166,11 @@ export default function FloatingContactBar() {
         }
 
         .call-btn .pulse-ring::before {
-          background: #1E5F8A;
+          background: #1A0066;          /* Deep Navy Primary */
         }
 
         .whatsapp-btn .pulse-ring::before {
-          background: #F47B20;
+          background: #FF6600;          /* Vibrant Cargo Orange */
         }
 
         /* Divider line */
@@ -205,8 +205,8 @@ export default function FloatingContactBar() {
         <a
           href={`tel:${phoneNumber}`}
           className="floating-btn call-btn"
-          aria-label="Call us"
-          title="Call us"
+          aria-label="Call Fast Professional Cargo Movers"
+          title="Call Fast Professional Cargo Movers"
         >
           <span className="btn-label">Call Us Now</span>
           <div className="btn-icon-wrap">
@@ -228,7 +228,7 @@ export default function FloatingContactBar() {
           target="_blank"
           rel="noopener noreferrer"
           className="floating-btn whatsapp-btn"
-          aria-label="Chat on WhatsApp"
+          aria-label="Chat with Fast Professional Cargo Movers on WhatsApp"
           title="Chat on WhatsApp"
         >
           <span className="btn-label">WhatsApp Us</span>
@@ -241,7 +241,7 @@ export default function FloatingContactBar() {
               />
               <path
                 d="M21.58 19.51c-.27.76-1.35 1.39-2.22 1.57-.59.13-1.36.23-3.95-.85-3.32-1.38-5.46-4.74-5.62-4.96-.16-.22-1.32-1.76-1.32-3.35 0-1.59.83-2.37 1.13-2.69.27-.29.59-.36.79-.36.2 0 .39.002.56.01.18.008.42-.068.66.5.27.63.91 2.23.99 2.39.08.17.13.36.03.58-.1.22-.15.36-.3.55-.15.19-.32.43-.45.58-.15.17-.31.36-.13.7.18.34.79 1.3 1.69 2.1 1.16 1.03 2.14 1.35 2.48 1.5.34.15.54.13.74-.08.2-.21.86-.99 1.09-1.33.23-.34.45-.28.76-.17.31.11 1.97.93 2.31 1.1.34.17.56.25.65.4.08.15.08.87-.19 1.63z"
-                fill="#F47B20"
+                fill="#FF6600"            /* Updated custom svg logo path */
               />
             </svg>
           </div>

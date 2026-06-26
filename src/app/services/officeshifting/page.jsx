@@ -1,9 +1,20 @@
-
 import ServicePageLayout from "../../../components/ServicePageLayout";
 
 export const metadata = {
-  title: "Office Shifting Services | Nex Go Packers & Movers",
+  title: "Office Shifting Services | Fast Professional Cargo Movers",
   description: "Reliable office shifting and commercial relocation services. Minimal downtime, maximum safety for your business assets.",
+  keywords: [
+    "delivery courier service",
+    "parcel services near me",
+    "door to door parcel service",
+    "goods transport service near me",
+    "transport services ahmedabad",
+    "cargo transportation services",
+    "truck transport in ahmedabad",
+    "goods transport services in india",
+    "packing moving services",
+    "near me packers and movers"
+  ]
 };
 
 const service = {
@@ -16,14 +27,14 @@ const service = {
   gridImage2: "/images/services/officeshifting/grid2.png",
   chooseImage: "/images/services/officeshifting/choose.png",
   intro1:
-    "Nex Go offers seamless office shifting services designed to minimize business downtime. Our trained professionals handle IT equipment, furniture, documents and all office assets with utmost care and precision throughout the entire relocation process.",
+    "Fast Professional Cargo Movers offers seamless office shifting services designed to minimize business downtime. Our trained professionals handle IT equipment, furniture, documents and all office assets with utmost care and precision throughout the entire relocation process.",
   intro2:
-    "We understand that office relocation is time-sensitive. Our team works after hours or on weekends to ensure your business operations resume quickly. Every item is labeled, packed and delivered to the exact location in your new office space.",
+    "We understand that office relocation is time-sensitive. Our truck transport in ahmedabad team works after hours or on weekends to ensure your business operations resume quickly. Every item is labeled, packed and delivered to the exact location in your new office space.",
   intro3:
-    "From disassembly to reassembly, our office shifting experts manage every detail. We provide complete floor planning, modular furniture handling and secure data center relocation with zero damage and on-time delivery guaranteed.",
+    "From disassembly to reassembly, our office shifting experts manage every detail. We provide complete goods transport services in india, modular furniture handling and secure data center relocation with zero damage and on-time delivery guaranteed.",
   chooseTitle: "Choose Your Services",
   chooseDesc:
-    "Professional office relocation with expert planning, careful handling of IT assets and furniture, and timely setup at your new location. Trusted by businesses across India for stress-free office moves.",
+    "Professional office relocation with packing moving services, expert planning, careful handling of IT assets and furniture, and timely setup at your new location. Trusted by businesses across India for stress-free office moves.",
   features: [
     "Home Shifting",
     "Office Shifting",

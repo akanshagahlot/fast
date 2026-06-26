@@ -31,20 +31,19 @@ const AboutHero = () => {
   }, []);
 
   const stats = [
-    { value: "12+",  label: "Years of Experience" },
-    { value: "50K+", label: "Happy Customers"     },
-    { value: "200+", label: "Cities Covered"      },
-    { value: "99%",  label: "Safe Delivery Rate"  },
+    { value: "10+", label: "Years of Experience" },
+    { value: "10K+", label: "Happy Customers" },
+    { value: "150+", label: "Cities Covered" },
+    { value: "99%", label: "Safe Delivery Rate" },
   ];
 
   return (
     <section className="about-hero" ref={sectionRef}>
-
       {/* BG IMAGE */}
       <div className="about-bg-wrap">
         <Image
           src="/images/about-bg.jpg"
-          alt="Packers and movers background"
+          alt="Fast Professional Cargo Movers"
           fill
           className="about-bg-img"
           priority
@@ -65,24 +64,24 @@ const AboutHero = () => {
 
       {/* CONTENT */}
       <div className="about-container">
-
         <div className="about-badge about-animate">
           <span className="about-badge-dot" />
-          ABOUT NEX GO
+          CARGO TRANSPORTATION SERVICES
         </div>
 
         <h1 className="about-heading about-animate">
-          Your More Trusted{" "}
-          <span className="about-orange">PACKERS</span>
+          Your Trusted{" "}
+          <span className="about-orange">PACKING MOVING SERVICES</span>
           <br />
-          &amp; <span className="about-orange">MOVERS</span> ACROSS INDIA
+          &amp; <span className="about-orange">TRUCK TRANSPORT</span> IN AHMEDABAD
         </h1>
 
         <p className="about-desc about-animate">
-          At <strong>Nex Go</strong>, we don&apos;t just move your belongings — we
-          move your life with care. From household shifting to commercial
-          relocation, our expert team ensures every item reaches safely, on
-          time, every time.
+          At <strong>Fast Professional Cargo Movers</strong>, we provide reliable 
+          goods transport services in India with top-tier transport services Ahmedabad 
+          businesses can depend on. From near me packers and movers assistance to commercial 
+          shipments, our team ensures professional handling, seamless courier distribution, 
+          and damage-free delivery.
         </p>
 
         <div className="about-stats-row about-animate">
@@ -93,7 +92,6 @@ const AboutHero = () => {
             </div>
           ))}
         </div>
-
       </div>
 
       {/* SCROLL HINT */}
@@ -101,7 +99,6 @@ const AboutHero = () => {
         <div className="about-scroll-line" />
         <span className="about-scroll-text">SCROLL</span>
       </div>
-
     </section>
   );
 };

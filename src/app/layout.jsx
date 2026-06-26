@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Nex Go Packers & Movers",
+  title: "Fast Professional Cargo Movers",
   description: "Safe, Fast & Reliable Moving Service",
   icons: {
     icon: "/favicon.ico",

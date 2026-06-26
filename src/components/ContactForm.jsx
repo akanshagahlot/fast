@@ -6,6 +6,7 @@ import "../styles/contactForm.css";
 const services = [
   "Home Shifting",
   "Office Shifting",
+  "Vehicle Transport",
   "Loading & Unloading",
   "Packing & Unpacking",
   "Warehouse Services",
@@ -30,7 +31,9 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Thank you! Our team will contact you shortly.");
+    alert(
+      "Thank you for contacting Fast Professional Cargo Movers! Our team will contact you shortly."
+    );
   };
 
   return (
@@ -44,8 +47,9 @@ export default function ContactForm() {
           </h2>
 
           <p className="cf-desc">
-            Share your moving details with us and our expert team will contact
-            you with the best relocation solution.
+            Share your relocation requirements with Fast Professional Cargo
+            Movers and our experienced team will provide the best packing,
+            moving, and cargo solutions.
           </p>
 
           <div className="cf-info-box">
@@ -53,22 +57,23 @@ export default function ContactForm() {
               <div className="cf-info-icon">☎</div>
               <div>
                 <p>Call Us 24/7</p>
-                <h3>+91 975-282-8166</h3>
+                <h3>+91 9265057478 
+                  <br></br> +91 9157615400</h3>
               </div>
             </div>
 
             <div className="cf-info-item">
               <div className="cf-info-icon">✉</div>
               <div>
-                <p>Make A Quote</p>
-                <h3>Info@Gmail.in</h3>
+                <p>Email Us</p>
+                <h3>info@fastprofessionalcargomovers.com</h3>
               </div>
             </div>
           </div>
         </div>
 
         <div className="cf-right">
-          <h2 className="cf-form-title">Let&apos;s Get In Touch</h2>
+          <h2 className="cf-form-title">Get a Free Moving Quote</h2>
 
           <form className="cf-form" onSubmit={handleSubmit}>
             <div className="cf-row">

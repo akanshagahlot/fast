@@ -3,18 +3,25 @@ import "../styles/contactinfo.css";
 const infoItems = [
   {
     icon: "/images/icons/location.png",
-    title: "Our Address",
-    lines: ["123, MG Road", "Jodhpur, Rajasthan 342001"],
+    title: "Transport Services Ahmedabad",
+    lines: [
+      "18, Swaminarayan Park 6",
+      "Narol Vatva Road, Nr. Bhamariya Kuwa",
+      "Narol, Ahmedabad – 382405",
+    ],
   },
   {
     icon: "/images/icons/phone.png",
-    title: "Phone Number",
-    lines: ["+91 98765 43210", "+91 91234 56789"],
+    title: "Near Me Packers and Movers",
+    lines: ["+91 9265057478", "+91 9157615400"],
   },
   {
     icon: "/images/icons/email.png",
-    title: "Email Address",
-    lines: ["info@nexgopackers.com", "support@nexgopackers.com"],
+    title: "Goods Transport Services in India",
+    lines: [
+      "info@fastprofessionalcargomovers.com",
+      "support@fastprofessionalcargomovers.com",
+    ],
   },
 ];
 

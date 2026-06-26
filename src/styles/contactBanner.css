@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1a5276;
+  background-color: #1a0066;
   padding: 20px 60px 0px 60px;
   overflow: visible;        /* ✅ image ko bahar nikalne do */
   height: 260px;
@@ -37,7 +37,7 @@
 }
 
 .contactBanner__content a {
-  background-color: #e67e22;
+  background-color: #ff6600;
   color: white;
   padding: 14px 32px;
   border-radius: 50px;
@@ -49,7 +49,7 @@
 }
 
 .contactBanner__content a:hover {
-  background-color: #ca6f1e;
+  background-color: #cc5200;
 }
 
 .contactBanner__image-wrapper {

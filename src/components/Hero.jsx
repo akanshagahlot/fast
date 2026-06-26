@@ -4,11 +4,11 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="heroContent">
-        <p className="smallText">Safe, Fast & Reliable Moving Service</p>
-        <h1>Move Anywhere With Nex Go</h1>
+        <p className="smallText">Goods Transport Service Near Me</p>
+        <h1>Move Anywhere With Fast Professional Cargo Movers</h1>
         <p>
-          Nex Go Packers and Movers provides trusted shifting, packing,
-          loading, logistics and moving services with professional care.
+          Fast Professional Cargo Movers provides trusted packing moving services, 
+          truck transport in Ahmedabad, and complete logistics solutions across India.
         </p>
 
         <div className="heroButtons">

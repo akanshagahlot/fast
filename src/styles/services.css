@@ -11,7 +11,7 @@
 }
 
 .sectionTag {
-  color: #F47B20;
+  color: #FF6600;              /* Vibrant Cargo Orange */
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 10px;
@@ -19,7 +19,7 @@
 }
 
 .services h2 {
-  color: #1E5F8A;
+  color: #1A0066;              /* Deep Navy Primary */
   font-size: 42px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
@@ -47,7 +47,7 @@
 
 .serviceCard:hover {
   transform: translateY(-12px);
-  box-shadow: 0 18px 40px rgba(30, 95, 138, 0.22);
+  box-shadow: 0 18px 40px rgba(26, 0, 102, 0.22); /* Deep Navy Box Shadow */
 }
 
 .serviceImageBox {
@@ -65,8 +65,8 @@
   inset: 0;
   background: linear-gradient(
     to top,
-    rgba(30, 95, 138, 0.35),
-    rgba(30, 95, 138, 0.05)
+    rgba(26, 0, 102, 0.35),    /* Translucent Deep Navy Primary Gradient Steps */
+    rgba(26, 0, 102, 0.05)
   );
   opacity: 0;
   transition: 0.4s ease;
@@ -88,7 +88,7 @@
 }
 
 .serviceCard h3 {
-  color: #1E5F8A;
+  color: #1A0066;              /* Deep Navy Primary */
   font-size: 21px;
   margin: 24px 14px 10px;
   font-weight: 800;
@@ -110,7 +110,7 @@
   display: inline-block;
   margin-top: auto;
   margin-bottom: 26px;
-  color: #F47B20;
+  color: #FF6600;              /* Vibrant Cargo Orange */
   font-size: 15px;
   font-weight: 700;
   text-decoration: none;
@@ -119,7 +119,7 @@
 }
 
 .seeMoreLink:hover {
-  color: #1E5F8A;
+  color: #1A0066;              /* Deep Navy Primary */
   transform: translateX(5px);
 }
 

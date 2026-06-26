@@ -24,11 +24,11 @@ export default function HouseShiftingPage() {
           <span className="bp-hero-category">Moving Tips</span>
 
           <h1 className="bp-hero-title">
-            House Shifting ka{" "}
+            Packing &amp; Moving Services:{" "}
             <span className="bp-orange">Complete Guide</span> (2026)
           </h1>
 
-          <p className="bp-hero-sub">Packing se Unpacking tak</p>
+          <p className="bp-hero-sub">Reliable Goods Transport Services in India</p>
 
           <div className="bp-hero-meta">
             <span className="bp-meta-item">
@@ -43,7 +43,7 @@ export default function HouseShiftingPage() {
                 <circle cx="12" cy="8" r="4" />
                 <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
               </svg>
-              Nex Go Team
+              Fast Professional Cargo Movers Team
             </span>
 
             <span className="bp-meta-item">
@@ -79,11 +79,10 @@ export default function HouseShiftingPage() {
         <div className="bp-body-inner">
           <article className="bp-article">
             <p className="bp-intro">
-              Ghar shift karna ek badi zimmedari hai — lekin sahi planning se yeh
-              kaam bahut aasaan ho sakta hai. Is guide mein hum aapko
-              <strong> step-by-step </strong>
-              batayenge ki kaise packing se lekar unpacking tak har kaam smoothly
-              ho sakta hai.
+              Relocating your home is a major responsibility — but with proper planning, the entire 
+              process can become completely seamless. This comprehensive guide provides a 
+              <strong> step-by-step breakdown </strong> 
+              on managing everything from packing to secure delivery across Ahmedabad and India.
             </p>
 
             {/* STEP 1 */}
@@ -91,19 +90,19 @@ export default function HouseShiftingPage() {
               <div className="bp-step-num">01</div>
 
               <div className="bp-step-content">
-                <h2 className="bp-step-title">Planning Pehle Karo</h2>
+                <h2 className="bp-step-title">Plan Your Move Well in Advance</h2>
 
                 <p>
-                  Move karne se kam se kam <strong>4-6 hafte pehle</strong>
-                  planning shuru kar do. Moving date fix karo, budget banao aur
-                  ek checklist tayar karo.
+                  Start your logistics coordination at least <strong>4-6 weeks prior</strong> to 
+                  your moving date. Finalize the dates, estimate budgets, and build an organized 
+                  checklist.
                 </p>
 
                 <ul className="bp-list">
-                  <li>Moving date confirm karo</li>
-                  <li>Professional packers book karo</li>
-                  <li>Budget estimate banao</li>
-                  <li>New house ka address utilities mein update karo</li>
+                  <li>Confirm the exact shipment or shifting date</li>
+                  <li>Book professional packers and movers near me</li>
+                  <li>Create a transparent budget estimate</li>
+                  <li>Update your address for essential utilities and delivery courier services</li>
                 </ul>
               </div>
             </div>
@@ -113,11 +112,11 @@ export default function HouseShiftingPage() {
               <div className="bp-step-num">02</div>
 
               <div className="bp-step-content">
-                <h2 className="bp-step-title">Saman Sort Karo</h2>
+                <h2 className="bp-step-title">Sort and Categorize Your Goods</h2>
 
                 <p>
-                  Packing shuru karne se pehle saman ko 3 categories mein divide
-                  karo:
+                  Before beginning the packing process, categorize all household items into 
+                  three distinct groups:
                 </p>
 
                 <div className="bp-three-col">
@@ -132,8 +131,8 @@ export default function HouseShiftingPage() {
                         marginBottom: "10px",
                       }}
                     />
-                    <strong>Rakhna hai</strong>
-                    <p>Regularly use hone wali cheezein</p>
+                    <strong>Items to Retain</strong>
+                    <p>Regularly used appliances, furniture, and belongings</p>
                   </div>
 
                   <div className="bp-col-card bp-col-donate">
@@ -147,8 +146,8 @@ export default function HouseShiftingPage() {
                         marginBottom: "10px",
                       }}
                     />
-                    <strong>Donate karo</strong>
-                    <p>Kaam ki cheez jo aap use nahi karte</p>
+                    <strong>Items to Donate</strong>
+                    <p>Useful items that you no longer require or use</p>
                   </div>
 
                   <div className="bp-col-card bp-col-throw">
@@ -162,8 +161,8 @@ export default function HouseShiftingPage() {
                         marginBottom: "10px",
                       }}
                     />
-                    <strong>Phenko</strong>
-                    <p>Toot-phooti aur bekaar cheezein</p>
+                    <strong>Discard or Scrap</strong>
+                    <p>Damaged, broken, or completely unusable goods</p>
                   </div>
                 </div>
               </div>
@@ -174,16 +173,16 @@ export default function HouseShiftingPage() {
               <div className="bp-step-num">03</div>
 
               <div className="bp-step-content">
-                <h2 className="bp-step-title">Packing Sahi Tarike Se Karo</h2>
+                <h2 className="bp-step-title">Execute Packing with High Standards</h2>
 
-                <p>Sahi packing se aapka saman damage se bachta hai.</p>
+                <p>Proper packing methods protect your valuable goods from transit damage.</p>
 
                 <ul className="bp-list">
-                  <li>Fragile items ko bubble wrap se wrap karo</li>
-                  <li>Boxes ko zyada bhaari mat karo</li>
-                  <li>Har box par clearly label lagao</li>
-                  <li>Electronics ke original boxes use karo</li>
-                  <li>Kapdon ko suitcase mein pack karo</li>
+                  <li>Wrap fragile products in heavy-duty bubble wrap layers</li>
+                  <li>Avoid overstuffing boxes beyond their weight capacities</li>
+                  <li>Clearly label every box with its destination room</li>
+                  <li>Utilize original packaging for electronic cargo transportation</li>
+                  <li>Pack clothing in sturdy suitcases for door to door parcel service safety</li>
                 </ul>
               </div>
             </div>
@@ -193,14 +192,14 @@ export default function HouseShiftingPage() {
               <div className="bp-step-num">04</div>
 
               <div className="bp-step-content">
-                <h2 className="bp-step-title">Moving Day Plan</h2>
+                <h2 className="bp-step-title">Moving Day Management</h2>
 
                 <ul className="bp-list">
-                  <li>Subah jaldi uthkar ready ho jao</li>
-                  <li>Last walkthrough karo</li>
-                  <li>Documents khud carry karo</li>
-                  <li>Children aur pets arrange karo</li>
-                  <li>Loading supervise karo</li>
+                  <li>Begin early in the morning to maximize daylight hours</li>
+                  <li>Perform a comprehensive final walkthrough of the empty rooms</li>
+                  <li>Keep important personal documents and IDs with you explicitly</li>
+                  <li>Coordinate safety arrangements for children and pets</li>
+                  <li>Supervise the truck transport loading process efficiently</li>
                 </ul>
               </div>
             </div>
@@ -210,13 +209,15 @@ export default function HouseShiftingPage() {
               <div className="bp-step-num">05</div>
 
               <div className="bp-step-content">
-                <h2 className="bp-step-title">Unpacking Smart Tarike Se</h2>
+                <h2 className="bp-step-title">Smart and Systematic Unpacking</h2>
+
+                <p>Once the transport services arrive at your destination, unpack efficiently:</p>
 
                 <ul className="bp-list">
-                  <li>Pehle kitchen setup karo</li>
-                  <li>Bedrooms pehle set karo</li>
-                  <li>Room by room unpack karo</li>
-                  <li>Empty boxes hatao</li>
+                  <li>Set up the kitchen area first for basic requirements</li>
+                  <li>Arrange bedding and bedrooms for immediate comfort</li>
+                  <li>Unpack systematically, moving room by room</li>
+                  <li>Dispose of empty boxes and packing clutter quickly</li>
                 </ul>
               </div>
             </div>
@@ -224,10 +225,10 @@ export default function HouseShiftingPage() {
             {/* CTA */}
             <div className="bp-cta">
               <div className="bp-cta-content">
-                <h3>Professional Help Chahiye?</h3>
+                <h3>Looking for Goods Transport Service Near Me?</h3>
                 <p>
-                  Nex Go ke expert packers aur movers aapki shifting ko
-                  stress-free banayenge.
+                  Fast Professional Cargo Movers provides premium, stress-free shifting, truck transport in Ahmedabad, 
+                  and reliable logistics services all over India.
                 </p>
 
                 <Link href="/contact" className="bp-cta-btn">

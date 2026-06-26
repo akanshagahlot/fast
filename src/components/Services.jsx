@@ -9,7 +9,7 @@ const services = [
       "Safe and smooth home relocation with careful packing, loading, transport, and doorstep delivery.",
     image: "/images/services/homeshifting/main.png",
     link: "/services/homeshifting",
-    alt: "Home shifting service by Nex Go Packers and Movers",
+    alt: "Home shifting service by Fast Professional Cargo Movers",
   },
   {
     title: "Office Shifting",
@@ -17,10 +17,10 @@ const services = [
       "Professional office moving service to shift furniture, files, systems, and equipment safely.",
     image: "/images/services/officeshifting/main.png",
     link: "/services/officeshifting",
-    alt: "Office relocation service by Nex Go Packers and Movers",
+    alt: "Office relocation service by Fast Professional Cargo Movers",
   },
   {
-    title: "Loading And Unloading",
+    title: "Goods Transport Service",
     description:
       "Trained staff handle heavy and delicate items carefully during loading and unloading.",
     image: "/images/services/loadingunloading/main.png",
@@ -28,7 +28,7 @@ const services = [
     alt: "Loading and unloading service by professional movers",
   },
   {
-    title: "Packing And Unpacking",
+    title: "Packing Moving Services",
     description:
       "Quality packing materials are used to protect your goods and unpack them safely at destination.",
     image: "/images/services/packingunpacking/main.png",
@@ -52,12 +52,12 @@ const services = [
     alt: "Insurance service for safe and secure moving",
   },
   {
-    title: "Logistics Services",
+    title: "Cargo Transportation",
     description:
       "Reliable logistics and transport solutions for fast, safe, and timely goods delivery.",
     image: "/images/services/logistic/main.png",
     link: "/services/logistic",
-    alt: "Logistics and transport service by Nex Go",
+    alt: "Logistics and transport service by Fast Professional Cargo Movers",
   },
   {
     title: "Commercial Moving",

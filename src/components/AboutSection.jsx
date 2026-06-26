@@ -1,60 +1,60 @@
 import "../styles/about.css";
 
 export default function AboutSection() {
-  const stats = [
-    { number: "12+", label: "Years of Experience" },
-    { number: "50K+", label: "Happy Customers" },
-    { number: "200+", label: "Cities Covered" },
-    { number: "99%", label: "Safe Delivery Rate" },
-  ];
-
   const features = [
     {
       icon: "/images/icons/packing.png",
-      title: "Premium Packing",
-      desc: "High-quality packing materials are used to keep your valuable items safe during shifting.",
+      title: "Packing Moving Services",
+      desc: "We use high-quality packing materials to ensure the safety of your belongings during transportation.",
     },
     {
       icon: "/images/icons/ontime.png",
-      title: "On-Time Delivery",
-      desc: "We make sure your goods are picked up and delivered on time without delay.",
+      title: "Door to Door Parcel Service",
+      desc: "Our team ensures timely pickup and delivery services for a smooth and hassle-free moving experience.",
     },
     {
       icon: "/images/icons/team.png",
-      title: "Expert Team",
-      desc: "Our trained and experienced team handles every item with proper care and safety.",
+      title: "Near Me Packers and Movers",
+      desc: "Our skilled and experienced staff handle your goods with utmost care and professionalism.",
     },
     {
       icon: "/images/icons/pricing.png",
-      title: "Transparent Pricing",
-      desc: "We provide clear pricing with no hidden charges, so you know exactly what you pay.",
+      title: "Affordable Pricing",
+      desc: "We offer transparent and competitive pricing with no hidden charges.",
     },
     {
       icon: "/images/icons/insurance.png",
-      title: "Insurance Coverage",
-      desc: "Your goods are protected with insurance coverage for a safe and worry-free move.",
+      title: "Goods Transport Service Near Me",
+      desc: "We prioritize the safety of your belongings with secure handling and transportation services.",
     },
     {
       icon: "/images/icons/support.png",
-      title: "24/7 Support",
-      desc: "Our support team is always available to help you with queries before and after moving.",
+      title: "24/7 Customer Support",
+      desc: "Our support team is available round the clock to assist you before, during, and after your move.",
     },
   ];
 
   return (
     <section className="aboutSection">
       <div className="features-section">
-        <span className="about-tag">Our Services</span>
+        <span className="about-tag">Why Choose Us</span>
 
         <h3 className="features-title">
-          Everything You Need for a <span className="highlight">Perfect Move</span>
+          Why Choose{" "}
+          <span className="highlight">
+            Fast Professional Cargo Movers
+          </span>
         </h3>
 
         <div className="features-grid">
           {features.map((f, i) => (
             <div className="feature-card" key={i}>
               <div className="feature-icon">
-                <img src={f.icon} alt={f.title} className="feature-icon-img" />
+                <img
+                  src={f.icon}
+                  alt={f.title}
+                  className="feature-icon-img"
+                />
               </div>
 
               <h4 className="feature-title">{f.title}</h4>
@@ -63,6 +63,8 @@ export default function AboutSection() {
             </div>
           ))}
         </div>
+
+        
       </div>
     </section>
   );

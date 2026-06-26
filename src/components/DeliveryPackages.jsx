@@ -7,7 +7,8 @@ const packages = [
   {
     id: "basic",
     icon: "/images/icons/packing.png",
-    name: "Basic Delivery",
+    name: "Parcel Services Near Me",
+    tag: "Door to Door Parcel Service",
     tagline: "Reliable & Budget-Friendly",
     time: "2–4",
     timeUnit: "/days",
@@ -30,7 +31,8 @@ const packages = [
   {
     id: "fast",
     icon: "/images/icons/thunder.png",
-    name: "Fast Delivery",
+    name: "Goods Transport Service",
+    tag: "Truck Transport in Ahmedabad",
     tagline: "Quick & Reliable",
     time: "48",
     timeUnit: "/hours",
@@ -47,13 +49,14 @@ const packages = [
       { text: "Ultra-Fast Transportation", included: false },
       { text: "White-Glove Unpacking", included: false },
     ],
-    image: "/images/delivery/fast.jpg",
+    image: "/images/delivery/fast.png",
     cta: "Choose Fast",
   },
   {
     id: "superfast",
     icon: "/images/icons/superfast.png",
-    name: "Super Fast Delivery",
+    name: "Delivery Courier Service",
+    tag: "Cargo Transportation Services",
     tagline: "Premium & Urgent",
     time: "24",
     timeUnit: "/hours",
@@ -70,7 +73,7 @@ const packages = [
       { text: "Same-Day Confirmation", included: true },
       { text: "Dedicated Supervisor", included: true },
     ],
-    image: "/images/delivery/superfast.jpg",
+    image: "/images/delivery/superfast.png",
     cta: "Choose Super Fast",
   },
 ];
@@ -125,12 +128,12 @@ const DeliveryPackages = () => {
     >
       <div className="dp-container">
         <div className="dp-header">
-          <div className="dp-header__tag">Our Packages</div>
+          <div className="dp-header__tag">Our Packing Moving Services</div>
           <h2 className="dp-header__title">
-            Choose the <span className="dp-header__accent">Right Plan</span> for Your Move
+            Top-Rated <span className="dp-header__accent">Packers and Movers</span> Solutions
           </h2>
           <p className="dp-header__sub">
-            All plans include professional packing, careful handling, and our
+            All plans by Fast Professional Cargo Movers include professional packing, careful handling, and our
             satisfaction guarantee. Pick what fits your timeline.
           </p>
         </div>
@@ -204,7 +207,7 @@ const DeliveryPackages = () => {
           <div className="dp-compare__header">
             <div className="dp-compare__tag">Compare Plans</div>
             <h3 className="dp-compare__title">
-              Side-by-Side <span className="dp-compare__accent">Comparison</span>
+              Transport Services <span className="dp-compare__accent">Ahmedabad</span> &amp; India
             </h3>
           </div>
 
@@ -212,7 +215,7 @@ const DeliveryPackages = () => {
             <table className="dp-compare__table">
               <thead>
                 <tr>
-                  <th className="dp-compare__th dp-compare__th--feature">Feature</th>
+                  <th className="dp-compare__th dp-compare__th--feature">Goods Transport Services in India</th>
                   <th className="dp-compare__th">Basic</th>
                   <th className="dp-compare__th dp-compare__th--highlight">Fast</th>
                   <th className="dp-compare__th">Super Fast</th>
@@ -275,23 +278,23 @@ const DeliveryPackages = () => {
             </h3>
 
             <p className="dp-cta-banner__text">
-              Talk to our relocation experts for a free consultation. We'll
+              Talk to our relocation experts at Fast Professional Cargo Movers for a free consultation. We'll
               recommend the best package for your needs and budget.
             </p>
 
             <div className="dp-cta-banner__btns">
               <a
-                href="tel:+918001234567"
+                href="tel:+919265057478"
                 className="dp-cta-banner__btn dp-cta-banner__btn--primary"
               >
-                📞 Call Us Now
+                📞 Call 9265057478
               </a>
 
               <a
-                href="/contact"
+                href="tel:+919157615400"
                 className="dp-cta-banner__btn dp-cta-banner__btn--secondary"
               >
-                Get Free Quote →
+                📞 Call 9157615400
               </a>
             </div>
           </div>
@@ -299,7 +302,7 @@ const DeliveryPackages = () => {
           <div className="dp-cta-banner__right">
             <img
               src="/images/banner/cta.png"
-              alt="Relocation Expert"
+              alt="Fast Professional Cargo Movers Expert"
               className="dp-cta-banner__img"
             />
           </div>

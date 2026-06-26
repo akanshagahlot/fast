@@ -1,6 +1,6 @@
 /* ================================
    BlogCards.css
-   Brand: #1E5F8A | #F47B20
+   Brand: #1A0066 | #FF6600
 ================================ */
 
 /* SECTION */
@@ -31,19 +31,19 @@
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #f47b20;
+  color: #FF6600;              /* Vibrant Cargo Orange */
 }
 
 .blogcards-title {
   font-family: "Montserrat", "Arial Black", sans-serif;
   font-size: clamp(28px, 4vw, 42px);
   font-weight: 900;
-  color: #0d3b5e;
+  color: #100040;              /* Darkened Deep Navy variant */
   letter-spacing: -0.5px;
   margin: 0;
 }
 
-.blogcards-accent { color: #f47b20; }
+.blogcards-accent { color: #FF6600; }
 
 .blogcards-sub {
   font-family: "Roboto", sans-serif;
@@ -74,8 +74,8 @@
 
 .bc-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 14px 36px rgba(30, 95, 138, 0.16);
-  border-color: rgba(244, 123, 32, 0.2);
+  box-shadow: 0 14px 36px rgba(26, 0, 102, 0.16); /* Deep Navy Box Shadow Tint */
+  border-color: rgba(255, 102, 0, 0.2);          /* Translucent Cargo Orange */
 }
 
 /* CARD IMAGE */
@@ -104,7 +104,7 @@
   position: absolute;
   top: 14px;
   left: 14px;
-  background: #f47b20;
+  background: #FF6600;        /* Vibrant Cargo Orange */
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
@@ -129,7 +129,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 600;
-  color: #f47b20;
+  color: #FF6600;              /* Vibrant Cargo Orange */
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
@@ -139,7 +139,7 @@
   font-family: "Montserrat", "Arial Black", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  color: #0d3b5e;
+  color: #100040;              /* Darkened Deep Navy variant */
   line-height: 1.35;
   margin: 0;
 }
@@ -170,7 +170,7 @@
 }
 
 .bc-meta-item svg {
-  color: #f47b20;
+  color: #FF6600;              /* Vibrant Cargo Orange */
   flex-shrink: 0;
 }
 
@@ -179,7 +179,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #1e5f8a;
+  color: #1A0066;              /* Deep Navy Primary */
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 700;
@@ -193,7 +193,7 @@
 }
 
 .bc-card:hover .bc-readmore {
-  color: #f47b20;
+  color: #FF6600;              /* Vibrant Cargo Orange */
 }
 
 .bc-card:hover .bc-arrow {

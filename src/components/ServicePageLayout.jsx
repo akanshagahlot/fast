@@ -1,16 +1,17 @@
 "use client";
 
+import React from "react";
 import Link from "next/link";
 import "../styles/Servicepage.css";
 
 const allServices = [
   { label: "Home Shifting",       href: "/services/homeshifting"     },
   { label: "Office Shifting",     href: "/services/officeshifting"   },
-  { label: "Loading & Unloading", href: "/services/loadingunloading" },
-  { label: "Packing & Unpacking", href: "/services/packingunpacking" },
+  { label: "Goods Transport Service", href: "/services/loadingunloading" },
+  { label: "Packing & Moving",    href: "/services/packingunpacking" },
   { label: "Warehouse Services",  href: "/services/warehouse"        },
   { label: "Insurance Services",  href: "/services/insurance"        },
-  { label: "Logistics Services",  href: "/services/logistic"         },
+  { label: "Cargo Transportation",  href: "/services/logistic"         },
   { label: "Commercial Moving",   href: "/services/commercial"       },
 ];
 
@@ -30,7 +31,7 @@ const ServicePageLayout = ({ service }) => {
     chooseTitle,
     chooseDesc,
     features,
-    phone = "+91 98765 43210",
+    phone = "+91 92650 57478", // Defaulted to primary phone info
   } = service;
 
   return (
@@ -131,7 +132,7 @@ const ServicePageLayout = ({ service }) => {
               <div className="sp-call-card-img-wrap">
                 <img
                   src="/images/services/lady.png"
-                  alt="Customer Support"
+                  alt="Fast Professional Cargo Movers Support"
                   className="sp-call-card-img"
                 />
               </div>
@@ -142,7 +143,17 @@ const ServicePageLayout = ({ service }) => {
                   </svg>
                 </div>
                 <h3 className="sp-call-title">Need Help? Call Here</h3>
-                <a href={`tel:${phone.replace(/\s/g, "")}`} className="sp-call-number">{phone}</a>
+                
+                {/* Dual numbers block fallback check */}
+                {phone.includes("92650") ? (
+                  <div style={{ display: "flex", flexDirection: "column", gap: "6px", marginBottom: "15px" }}>
+                    <a href="tel:+919265057478" className="sp-call-number" style={{ margin: 0 }}>+91 92650 57478</a>
+                    <a href="tel:+919157615400" className="sp-call-number" style={{ margin: 0 }}>+91 91576 15400</a>
+                  </div>
+                ) : (
+                  <a href={`tel:${phone.replace(/\s/g, "")}`} className="sp-call-number">{phone}</a>
+                )}
+                
                 <Link href="/contact" className="sp-call-btn">GET A QUOTE →</Link>
               </div>
             </div>

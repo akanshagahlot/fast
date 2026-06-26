@@ -21,8 +21,8 @@
 
 .cf-tag {
   display: inline-block;
-  color: #f47b20;
-  border: 1.5px solid rgba(244, 123, 32, 0.45);
+  color: #ff6600;
+  border: 1.5px solid rgba(255, 102, 0, 0.45);
   padding: 8px 22px;
   border-radius: 50px;
   font-family: "Roboto", sans-serif;
@@ -38,13 +38,13 @@
   font-size: 46px;
   line-height: 1.15;
   font-weight: 900;
-  color: #061d34;
+  color: #1a0066;
   text-transform: uppercase;
   margin: 0 0 22px;
 }
 
 .cf-title span {
-  color: #f47b20;
+  color: #ff6600;
 }
 
 .cf-desc {
@@ -72,26 +72,26 @@
 .cf-info-icon {
   width: 54px;
   height: 54px;
-  border: 2px solid #f47b20;
+  border: 2px solid #ff6600;
   border-radius: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #f47b20;
+  color: #ff6600;
   font-size: 28px;
   font-weight: 700;
 }
 
 .cf-info-item p {
   font-family: "Roboto", sans-serif;
-  color: #f47b20;
+  color: #ff6600;
   font-size: 15px;
   margin: 0 0 8px;
 }
 
 .cf-info-item h3 {
   font-family: "Inter", sans-serif;
-  color: #061d34;
+  color: #1a0066;
   font-size: 24px;
   margin: 0;
   font-weight: 800;
@@ -104,7 +104,7 @@
 
 .cf-form-title {
   font-family: "Inter", sans-serif;
-  color: #061d34;
+  color: #1a0066;
   font-size: 46px;
   font-weight: 900;
   margin: 0 0 35px;
@@ -130,7 +130,7 @@
 
 .cf-field label {
   font-family: "Inter", sans-serif;
-  color: #061d34;
+  color: #1a0066;
   font-size: 16px;
   font-weight: 800;
 }
@@ -145,7 +145,7 @@
   padding: 17px 20px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  color: #061d34;
+  color: #1a0066;
   outline: none;
   box-sizing: border-box;
   resize: none;
@@ -160,13 +160,13 @@
 .cf-field input:focus,
 .cf-field select:focus,
 .cf-field textarea:focus {
-  border-color: #f47b20;
-  box-shadow: 0 0 0 3px rgba(244, 123, 32, 0.12);
+  border-color: #ff6600;
+  box-shadow: 0 0 0 3px rgba(255, 102, 0, 0.12);
 }
 
 .cf-btn {
   margin-top: 5px;
-  background: #f47b20;
+  background: #ff6600;
   color: #ffffff;
   border: none;
   width: fit-content;
@@ -182,7 +182,7 @@
 }
 
 .cf-btn:hover {
-  background: #061d34;
+  background: #1a0066;
   transform: translateY(-3px);
 }
 

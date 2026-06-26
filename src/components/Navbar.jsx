@@ -88,7 +88,7 @@ export default function Navbar() {
             src="/images/logo.png"
             alt="Nex Go Logo"
             width={180}
-            height={70}
+            height={60}
             priority
           />
         </Link>
@@ -174,7 +174,7 @@ export default function Navbar() {
                 <li><Link href="/services/packingunpacking" onClick={closeAll} className={isActive("/services/packingunpacking") ? "dropdown-active" : ""}>Packing And Unpacking</Link></li>
                 <li><Link href="/services/warehouse"        onClick={closeAll} className={isActive("/services/warehouse")        ? "dropdown-active" : ""}>Warehouse Services</Link></li>
                 <li><Link href="/services/insurance"        onClick={closeAll} className={isActive("/services/insurance")        ? "dropdown-active" : ""}>Insurance Services</Link></li>
-                <li><Link href="/services/logistic"         onClick={closeAll} className={isActive("/services/logistic")         ? "dropdown-active" : ""}>Logistics Services</Link></li>
+                <li><Link href="/services/logistics"         onClick={closeAll} className={isActive("/services/logistic")         ? "dropdown-active" : ""}>Logistics Services</Link></li>
                 <li><Link href="/services/commercial"       onClick={closeAll} className={isActive("/services/commercial")       ? "dropdown-active" : ""}>Commercial Moving</Link></li>
               </ul>
             )}

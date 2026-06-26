@@ -1,13 +1,13 @@
 /* ==============================
    Aboutcta.css
-   Brand: #1E5F8A | #F47B20
+   Brand: #1A0066 | #FF6600
    Font: Inter (headings/buttons) + Roboto (body/tags)
    Note: Inter & Roboto loaded globally via globals.css
 ============================== */
 
 .acta-section {
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(135deg, #1E5F8A 0%, #154869 60%, #0e3349 100%);
+  background: linear-gradient(135deg, #1A0066 0%, #100040 60%, #080020 100%);
   padding: 90px 6vw;
   text-align: center;
   position: relative;
@@ -24,7 +24,7 @@
 .acta-blob1 {
   width: 420px;
   height: 420px;
-  background: #F47B20;
+  background: #FF6600;
   top: -120px;
   right: -80px;
 }
@@ -46,8 +46,8 @@
 
 .acta-tag {
   display: inline-block;
-  background: rgba(244, 123, 32, 0.2);
-  color: #F47B20;
+  background: rgba(255, 102, 0, 0.2);
+  color: #FF6600;
   font-family: "Roboto", sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
@@ -55,7 +55,7 @@
   text-transform: uppercase;
   padding: 6px 18px;
   border-radius: 50px;
-  border: 1.5px solid rgba(244, 123, 32, 0.4);
+  border: 1.5px solid rgba(255, 102, 0, 0.4);
   margin-bottom: 20px;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .acta-orange {
-  color: #F47B20;
+  color: #FF6600;
 }
 
 .acta-desc {
@@ -92,7 +92,7 @@
 }
 
 .acta-btn-primary {
-  background: linear-gradient(135deg, #F47B20, #d9660e);
+  background: linear-gradient(135deg, #FF6600, #cc5200);
   color: #ffffff;
   font-family: "Inter", sans-serif;
   font-size: 1.05rem;
@@ -102,13 +102,13 @@
   padding: 15px 34px;
   border-radius: 50px;
   text-decoration: none;
-  box-shadow: 0 6px 24px rgba(244, 123, 32, 0.4);
+  box-shadow: 0 6px 24px rgba(255, 102, 0, 0.4);
   transition: transform 0.25s, box-shadow 0.25s;
 }
 
 .acta-btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 36px rgba(244, 123, 32, 0.55);
+  box-shadow: 0 10px 36px rgba(255, 102, 0, 0.55);
 }
 
 .acta-btn-secondary {

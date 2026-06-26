@@ -37,7 +37,7 @@ const ServiceHero = () => {
         {/* ✅ Apni image yahan rakho: public/images/servicehero/hero-bg.jpg */}
         <img
           src="/images/servicehero/hero-bg.jpg"
-          alt="Packers and movers background"
+          alt="Fast Professional Cargo Movers background"
           className="hero-bg-img"
         />
         <div className="hero-overlay"></div>
@@ -50,20 +50,19 @@ const ServiceHero = () => {
       <div className="hero-container">
         <div className="hero-badge">
           <span className="badge-dot"></span>
-          Our Services
+          Goods Transport Services
         </div>
 
         <h1 className="hero-title">
-          Professional <span className="hero-title--accent">Packers</span>{" "}
-          &amp; <span className="hero-title--accent">Movers</span>
+          Professional <span className="hero-title--accent">Packing &amp; Moving</span>{" "}
           <br />
-          <span className="hero-title--sub">Services Across India</span>
+          <span className="hero-title--sub">Services in Ahmedabad &amp; India</span>
         </h1>
 
         <p className="hero-desc">
-          We do not just move your belongings — we move your life with care.
-          From household shifting to commercial relocation, our expert team
-          ensures every item reaches safely, on time, every time.
+          At Fast Professional Cargo Movers, we do not just move your belongings — we 
+          move your life with care. From door to door parcel service to commercial relocation, 
+          our expert team ensures every item reaches safely, on time, every time.
         </p>
 
         <div className="hero-actions">

@@ -1,19 +1,19 @@
 /* ==============================
    Whychoseus.css
-   Brand: #1E5F8A | #F47B20
+   Brand: #1A0066 | #FF6600
    Font: Roboto + Inter
 ============================== */
 
 :root {
-  --blue: #1e5f8a;
-  --blue-dark: #154d72;
-  --blue-light: #e8f3fb;
-  --orange: #f47b20;
-  --orange-light: #fff4ec;
+  --blue: #1A0066;          /* Deep Navy Primary */
+  --blue-dark: #100040;     /* Deep Navy Darkened */
+  --blue-light: #EAE6F7;    /* Deep Navy Tinted Light */
+  --orange: #FF6600;        /* Vibrant Cargo Orange */
+  --orange-light: #FFF0E6;  /* Cargo Orange Soft Background */
   --text-dark: #1a2332;
   --text-muted: #6b7a8d;
   --white: #ffffff;
-  --border: rgba(30, 95, 138, 0.1);
+  --border: rgba(26, 0, 102, 0.1);
 }
 
 /* ======= Section ======= */
@@ -41,7 +41,7 @@
 .wcu-bg-circle--1 {
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(30, 95, 138, 0.06), transparent 70%);
+  background: radial-gradient(circle, rgba(26, 0, 102, 0.06), transparent 70%);
   top: -200px;
   right: -200px;
 }
@@ -49,7 +49,7 @@
 .wcu-bg-circle--2 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(244, 123, 32, 0.05), transparent 70%);
+  background: radial-gradient(circle, rgba(255, 102, 0, 0.05), transparent 70%);
   bottom: -100px;
   left: -100px;
 }
@@ -58,8 +58,8 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(30, 95, 138, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(30, 95, 138, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(26, 0, 102, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26, 0, 102, 0.04) 1px, transparent 1px);
   background-size: 60px 60px;
 }
 
@@ -96,7 +96,7 @@
   text-transform: uppercase;
   padding: 8px 20px;
   border-radius: 50px;
-  border: 1px solid rgba(244, 123, 32, 0.25);
+  border: 1px solid rgba(255, 102, 0, 0.25);
   margin-bottom: 20px;
   font-family: "Inter", sans-serif;
 }
@@ -143,7 +143,7 @@
   overflow: hidden;
   height: 480px;          /* ← badi height */
   width: 100%;
-  box-shadow: 0 24px 70px rgba(30, 95, 138, 0.2);
+  box-shadow: 0 24px 70px rgba(26, 0, 102, 0.2);
 }
 
 .wcu-main-img {
@@ -157,7 +157,7 @@
 .wcu-main-img-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, transparent 40%, rgba(30, 95, 138, 0.65) 100%);
+  background: linear-gradient(to bottom, transparent 40%, rgba(26, 0, 102, 0.65) 100%);
 }
 
 .wcu-main-badge {
@@ -188,7 +188,7 @@
   border-radius: 16px;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 0 4px 16px rgba(30, 95, 138, 0.06);
+  box-shadow: 0 4px 16px rgba(26, 0, 102, 0.06);
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.6s ease, transform 0.6s ease, 
@@ -205,7 +205,7 @@
 .wcu-card:hover,
 .wcu-card--active {
   border-color: var(--blue);
-  box-shadow: 0 12px 40px rgba(30, 95, 138, 0.15);
+  box-shadow: 0 12px 40px rgba(26, 0, 102, 0.15);
   transform: translateY(-6px) !important;
 }
 
@@ -233,7 +233,7 @@
 .wcu-card__img-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, transparent 50%, rgba(30, 95, 138, 0.45) 100%);
+  background: linear-gradient(to bottom, transparent 50%, rgba(26, 0, 102, 0.45) 100%);
 }
 
 /* Card body */
@@ -267,7 +267,7 @@
   height: 28px;
   object-fit: contain;
   display: block;
-  filter: invert(29%) sepia(56%) saturate(600%) hue-rotate(172deg) brightness(90%);
+  filter: invert(10%) sepia(90%) saturate(5000%) hue-rotate(248deg) brightness(50%); /* Remapped to support Deep Navy identity */
   transition: filter 0.3s ease;
 }
 
@@ -330,7 +330,7 @@
   background: var(--white);
   border-radius: 16px;
   border: 1px solid var(--border);
-  box-shadow: 0 8px 30px rgba(30, 95, 138, 0.07);
+  box-shadow: 0 8px 30px rgba(26, 0, 102, 0.07);
   flex-wrap: wrap;
   opacity: 0;
   transform: translateY(20px);

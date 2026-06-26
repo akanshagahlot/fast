@@ -1,9 +1,9 @@
 /* ===== DeliveryHero.css ===== */
 
 :root {
-  --dh-blue: #1e5f8a;
-  --dh-orange: #f47b20;
-  --dh-orange-light: #ff9a47;
+  --dh-blue: #1a0066;
+  --dh-orange: #ff6600;
+  --dh-orange-light: #ff944d;
   --dh-white: #ffffff;
   --dh-text: #1a2940;
   --dh-muted: #6b7a99;
@@ -46,7 +46,7 @@
   width: 420px;
   height: 420px;
   border-radius: 50%;
-  border: 2px solid rgba(244, 123, 32, 0.16);
+  border: 2px solid rgba(255, 102, 0, 0.16);
   right: -80px;
   top: -100px;
 }
@@ -55,7 +55,7 @@
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  border: 1.5px solid rgba(30, 95, 138, 0.12);
+  border: 1.5px solid rgba(26, 0, 102, 0.12);
   right: 60px;
   bottom: -70px;
 }
@@ -119,8 +119,8 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(244, 123, 32, 0.12);
-  border: 1px solid rgba(244, 123, 32, 0.35);
+  background: rgba(255, 102, 0, 0.12);
+  border: 1px solid rgba(255, 102, 0, 0.35);
   color: var(--dh-orange);
   font-size: 13px;
   font-weight: 700;
@@ -187,7 +187,7 @@
 .dh-cta--primary {
   background: var(--dh-orange);
   color: var(--dh-white);
-  box-shadow: 0 8px 24px rgba(244, 123, 32, 0.25);
+  box-shadow: 0 8px 24px rgba(255, 102, 0, 0.25);
 }
 
 .dh-cta--primary:hover {
@@ -198,8 +198,8 @@
 .dh-cta--secondary {
   background: var(--dh-white);
   color: var(--dh-blue);
-  border: 1.5px solid rgba(30, 95, 138, 0.25);
-  box-shadow: 0 8px 24px rgba(30, 95, 138, 0.1);
+  border: 1.5px solid rgba(26, 0, 102, 0.25);
+  box-shadow: 0 8px 24px rgba(26, 0, 102, 0.1);
 }
 
 .dh-cta--secondary:hover {
@@ -228,7 +228,7 @@
   height: 9px;
   background: var(--dh-orange);
   border-radius: 50%;
-  box-shadow: 0 0 0 4px rgba(244, 123, 32, 0.15);
+  box-shadow: 0 0 0 4px rgba(255, 102, 0, 0.15);
 }
 
 .dh-highlight__icon {
@@ -245,8 +245,8 @@
   background: var(--dh-white);
   border-radius: 22px;
   overflow: hidden;
-  box-shadow: 0 25px 60px rgba(30, 95, 138, 0.18);
-  border: 1px solid rgba(30, 95, 138, 0.12);
+  box-shadow: 0 25px 60px rgba(26, 0, 102, 0.18);
+  border: 1px solid rgba(26, 0, 102, 0.12);
   width: 100%;
   max-width: 340px;
   position: relative;
@@ -266,7 +266,7 @@
 .dh-promo-card__img-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, transparent 35%, rgba(30, 95, 138, 0.38));
+  background: linear-gradient(to bottom, transparent 35%, rgba(26, 0, 102, 0.38));
 }
 
 .dh-promo-card__label {
@@ -363,7 +363,7 @@
   align-items: center;
   gap: 6px;
   font-size: 13px;
-  box-shadow: 0 6px 20px rgba(244, 123, 32, 0.3);
+  box-shadow: 0 6px 20px rgba(255, 102, 0, 0.3);
 }
 
 .dh-promo-card__stat strong {

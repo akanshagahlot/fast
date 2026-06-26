@@ -4,11 +4,11 @@
    ========== */
 
 :root {
-  --blue-primary: #1e5f8a;
-  --blue-dark:    #0d3b5e;
-  --blue-deep:    #0a2f4e;
-  --orange:       #f47b20;
-  --orange-light: #f9a461;
+  --blue-primary: #1a0066;
+  --blue-dark:    #100040;
+  --blue-deep:    #080020;
+  --orange:       #ff6600;
+  --orange-light: #ff944d;
   --white:        #ffffff;
   --text-muted:   rgba(255, 255, 255, 0.6);
 }
@@ -54,7 +54,7 @@
   background: linear-gradient(
     180deg,
     transparent,
-    var(--orange)       30%,
+    var(--orange)        30%,
     var(--orange-light) 70%,
     transparent
   );
@@ -69,7 +69,7 @@
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  border: 2px solid rgba(244, 123, 32, 0.12);
+  border: 2px solid rgba(255, 102, 0, 0.12);
   pointer-events: none;
 }
 
@@ -80,7 +80,7 @@
   right: 180px;
   width: 140px;
   height: 140px;
-  border: 2px solid rgba(244, 123, 32, 0.15);
+  border: 2px solid rgba(255, 102, 0, 0.15);
   border-radius: 4px;
   transform: rotate(20deg);
   pointer-events: none;
@@ -129,8 +129,8 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(244, 123, 32, 0.18);
-  border: 1px solid rgba(244, 123, 32, 0.45);
+  background: rgba(255, 102, 0, 0.18);
+  border: 1px solid rgba(255, 102, 0, 0.45);
   color: var(--orange-light);
   font-family: "Roboto", sans-serif;
   font-size: 10px;
@@ -248,8 +248,8 @@
 }
 
 .iconCard:hover {
-  background: rgba(244, 123, 32, 0.15);
-  border-color: rgba(244, 123, 32, 0.4);
+  background: rgba(255, 102, 0, 0.15);
+  border-color: rgba(255, 102, 0, 0.4);
   transform: translateY(-3px);
 }
 

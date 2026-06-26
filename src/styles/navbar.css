@@ -1,6 +1,6 @@
 /* ============================================
    navbar.css  —  Nex Go
-   Brand: #1E5F8A (Blue) | #F47B20 (Orange)
+   Brand: #1A0066 (Blue) | #FF6600 (Orange)
    Font: Inter
 ============================================ */
 
@@ -69,7 +69,7 @@
   bottom: -4px;
   width: 0%;
   height: 2px;
-  background: #f47b20;
+  background: #FF6600;
   transition: width 0.25s ease;
   border-radius: 2px;
 }
@@ -81,12 +81,12 @@
 
 .navLinks a:hover,
 .dropBtn:hover {
-  color: #f47b20;
+  color: #FF6600;
 }
 
 /* ── ACTIVE page ── */
 .nav-active {
-  color: #f47b20 !important;
+  color: #FF6600 !important;
 }
 
 .nav-active::after {
@@ -110,7 +110,7 @@
 
 /* ── Quote Button ── */
 .quoteBtn {
-  background: #1e5f8a;
+  background: #1A0066;
   color: #fff;
   padding: 12px 26px;
   border-radius: 35px;
@@ -119,13 +119,13 @@
   font-family: "Inter", sans-serif;
   font-size: 15px;
   transition: background 0.25s, transform 0.2s, box-shadow 0.25s;
-  box-shadow: 0 3px 10px rgba(30, 95, 138, 0.22);
+  box-shadow: 0 3px 10px rgba(26, 0, 102, 0.22);
   white-space: nowrap;
 }
 
 .quoteBtn:hover {
-  background: #f47b20;
-  box-shadow: 0 5px 16px rgba(244, 123, 32, 0.3);
+  background: #FF6600;
+  box-shadow: 0 5px 16px rgba(255, 102, 0, 0.3);
   transform: translateY(-1px);
 }
 
@@ -147,7 +147,7 @@
   margin: 0;
   border-radius: 10px;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
-  border-bottom: 3px solid #f47b20;
+  border-bottom: 3px solid #FF6600;
   opacity: 0;
   visibility: hidden;
   transform: translateY(10px);
@@ -185,14 +185,14 @@
 }
 
 .dropdownMenu li a:hover {
-  background: rgba(244, 123, 32, 0.08);
-  color: #f47b20;
+  background: rgba(255, 102, 0, 0.08);
+  color: #FF6600;
   padding-left: 26px;
 }
 
 .dropdown-active {
-  color: #f47b20 !important;
-  background: rgba(244, 123, 32, 0.06) !important;
+  color: #FF6600 !important;
+  background: rgba(255, 102, 0, 0.06) !important;
   font-weight: 700 !important;
   padding-left: 26px !important;
 }
@@ -201,7 +201,7 @@
   content: "›";
   position: absolute;
   left: 12px;
-  color: #f47b20;
+  color: #FF6600;
   font-weight: 900;
 }
 
@@ -217,7 +217,7 @@
   width: 42px;
   height: 42px;
   background: none;
-  border: 2px solid rgba(30, 95, 138, 0.2);
+  border: 2px solid rgba(26, 0, 102, 0.2);
   border-radius: 8px;
   cursor: pointer;
   padding: 8px;
@@ -226,14 +226,14 @@
 }
 
 .hamburger:hover {
-  border-color: #f47b20;
+  border-color: #FF6600;
 }
 
 .hamburger__line {
   display: block;
   width: 22px;
   height: 2px;
-  background: #1e5f8a;
+  background: #1A0066;
   border-radius: 2px;
   transition: transform 0.35s ease, opacity 0.25s ease, background 0.25s;
   transform-origin: center;
@@ -242,7 +242,7 @@
 /* Hamburger → X animation */
 .hamburger--open .hamburger__line:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
-  background: #f47b20;
+  background: #FF6600;
 }
 
 .hamburger--open .hamburger__line:nth-child(2) {
@@ -252,7 +252,7 @@
 
 .hamburger--open .hamburger__line:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
-  background: #f47b20;
+  background: #FF6600;
 }
 
 /* ══════════════════════════════
@@ -299,15 +299,15 @@
   align-items: center;
   justify-content: space-between;
   padding: 18px 20px;
-  border-bottom: 1px solid rgba(30, 95, 138, 0.1);
+  border-bottom: 1px solid rgba(26, 0, 102, 0.1);
   flex-shrink: 0;
 }
 
 .mobileMenu__close {
   width: 36px;
   height: 36px;
-  background: rgba(244, 123, 32, 0.1);
-  color: #f47b20;
+  background: rgba(255, 102, 0, 0.1);
+  color: #FF6600;
   border: none;
   border-radius: 8px;
   font-size: 16px;
@@ -320,7 +320,7 @@
 }
 
 .mobileMenu__close:hover {
-  background: #f47b20;
+  background: #FF6600;
   color: #fff;
 }
 
@@ -340,14 +340,14 @@
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
-  border-bottom: 1px solid rgba(30, 95, 138, 0.06);
+  border-bottom: 1px solid rgba(26, 0, 102, 0.06);
   transition: color 0.2s, background 0.2s, padding-left 0.2s;
 }
 
 .mobileMenu__links > li > a:hover,
 .mobileMenu__links > li > a.nav-active {
-  color: #f47b20;
-  background: rgba(244, 123, 32, 0.05);
+  color: #FF6600;
+  background: rgba(255, 102, 0, 0.05);
   padding-left: 30px;
 }
 
@@ -362,7 +362,7 @@
   padding: 14px 24px;
   background: none;
   border: none;
-  border-bottom: 1px solid rgba(30, 95, 138, 0.06);
+  border-bottom: 1px solid rgba(26, 0, 102, 0.06);
   color: #1a2332;
   font-family: "Inter", sans-serif;
   font-size: 15px;
@@ -372,13 +372,13 @@
 }
 
 .mobileAccordion__btn:hover {
-  color: #f47b20;
-  background: rgba(244, 123, 32, 0.05);
+  color: #FF6600;
+  background: rgba(255, 102, 0, 0.05);
 }
 
 .mobileAccordion__btn span {
   font-size: 12px;
-  color: #f47b20;
+  color: #FF6600;
 }
 
 .mobileAccordion__submenu {
@@ -386,7 +386,7 @@
   padding: 0;
   margin: 0;
   background: #f7fafd;
-  border-bottom: 1px solid rgba(30, 95, 138, 0.06);
+  border-bottom: 1px solid rgba(26, 0, 102, 0.06);
   animation: accordionOpen 0.25s ease;
 }
 /* ══════════════════════════════
@@ -397,12 +397,12 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  border-bottom: 1px solid rgba(30, 95, 138, 0.06);
+  border-bottom: 1px solid rgba(26, 0, 102, 0.06);
   transition: color 0.2s, background 0.2s;
 }
 
 .mobileAccordion__row:hover {
-  background: rgba(244, 123, 32, 0.05);
+  background: rgba(255, 102, 0, 0.05);
 }
 
 .mobileAccordion__label {
@@ -419,7 +419,7 @@
 
 .mobileAccordion__label:hover,
 .mobileAccordion__label.nav-active {
-  color: #f47b20;
+  color: #FF6600;
 }
 
 .mobileAccordion__arrow {
@@ -428,7 +428,7 @@
   cursor: pointer;
   padding: 14px 24px 14px 0;
   font-size: 12px;
-  color: #f47b20;
+  color: #FF6600;
   font-family: "Inter", sans-serif;
   line-height: 1;
   transition: color 0.2s;
@@ -447,7 +447,7 @@
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
-  border-bottom: 1px solid rgba(30, 95, 138, 0.04);
+  border-bottom: 1px solid rgba(26, 0, 102, 0.04);
   transition: color 0.2s, padding-left 0.2s;
   position: relative;
 }
@@ -456,12 +456,12 @@
   content: "›";
   position: absolute;
   left: 22px;
-  color: #f47b20;
+  color: #FF6600;
   font-weight: 900;
 }
 
 .mobileAccordion__submenu li a:hover {
-  color: #f47b20;
+  color: #FF6600;
   padding-left: 42px;
 }
 

@@ -41,19 +41,17 @@ export default function Footer() {
         <div className="footer-brand">
           <Image
             src="/images/footer.png"
-            alt="Nex Go Logo"
+            alt="Fast Professional Cargo Movers Logo"
             width={200}
             height={150}
             className="footer-logo"
           />
 
           <p className="footer-about">
-            Nex Go Packers & Movers provides safe, reliable, and affordable
+            Fast Professional Cargo Movers provides safe, reliable, and affordable
             relocation services across India — for homes, offices, and
             commercial goods.
           </p>
-
-          
 
           {/* Social Icons */}
           <div className="footer-socials">
@@ -110,31 +108,40 @@ export default function Footer() {
           <div className="footer-divider" />
 
           <ul className="footer-contact-list">
-            <li className="contact-item">
+            <li className="contact-item" style={{ display: "flex", alignItems: "flex-start" }}>
               <img
                 src="/images/icons/location.png"
                 alt="Location"
                 width="18"
                 height="18"
-                style={{ objectFit: "contain", marginRight: "8px" }}
+                style={{ objectFit: "contain", marginRight: "8px", marginTop: "3px" }}
               />
-              <span>123, MG Road, Jodhpur, Rajasthan – 342001</span>
+              <span style={{ fontSize: "14px", lineHeight: "1.4" }}>
+                18, Swaminarayan Park 6, Narol Vatva Road, Nr. Bhamariya Kuwa, Narol, Ahmedabad – 382405
+              </span>
             </li>
 
-            <li className="contact-item">
-              <img
-                src="/images/icons/phone.png"
-                alt="Call"
-                width="18"
-                height="18"
-                style={{ objectFit: "contain", marginRight: "8px" }}
-              />
-              <a href="tel:+919876543210" className="footer-link">
-                +91 98765 43210
-              </a>
+            <li className="contact-item" style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <img
+                  src="/images/icons/phone.png"
+                  alt="Call"
+                  width="18"
+                  height="18"
+                  style={{ objectFit: "contain", marginRight: "8px" }}
+                />
+                <a href="tel:+919265057478" className="footer-link">
+                  +91 92650 57478
+                </a>
+              </div>
+              <div style={{ display: "flex", alignItems: "center", paddingLeft: "26px" }}>
+                <a href="tel:+919157615400" className="footer-link">
+                  +91 91576 15400
+                </a>
+              </div>
             </li>
 
-            <li className="contact-item">
+            <li className="contact-item" style={{ display: "flex", alignItems: "center" }}>
               <img
                 src="/images/icons/email.png"
                 alt="Email"
@@ -142,8 +149,8 @@ export default function Footer() {
                 height="18"
                 style={{ objectFit: "contain", marginRight: "8px" }}
               />
-              <a href="mailto:info@nexgo.in" className="footer-link">
-                info@nexgo.in
+              <a href="mailto:info@fastprofessionalcargomovers.com" className="footer-link">
+                info@fastprofessionalcargomovers.com
               </a>
             </li>
           </ul>
@@ -158,7 +165,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <p className="footer-copy">
           © {new Date().getFullYear()}{" "}
-          <span className="brand-name">Nex Go Packers & Movers</span>. All Rights
+          <span className="brand-name">Fast Professional Cargo Movers</span>. All Rights
           Reserved.
         </p>
 

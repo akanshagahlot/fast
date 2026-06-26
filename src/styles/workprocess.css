@@ -16,7 +16,7 @@
 }
 
 .work-subtitle {
-  color: #f47b20;
+  color: #FF6600;              /* Vibrant Cargo Orange */
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -26,7 +26,7 @@
   margin-top: 15px;
   font-size: 42px;
   font-weight: 800;
-  color: #0e5f8a;
+  color: #1A0066;              /* Deep Navy Primary */
 }
 
 .process-wrapper {
@@ -60,7 +60,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 10px 35px rgba(14, 95, 138, 0.15);
+  box-shadow: 0 10px 35px rgba(26, 0, 102, 0.15); /* Deep Navy Shadow Overlay */
   position: relative;
 }
 
@@ -71,7 +71,7 @@
   width: 28px;          /* 34px → 28px */
   height: 28px;         /* 34px → 28px */
   background: #ffffff;
-  color: #f47b20;
+  color: #FF6600;              /* Vibrant Cargo Orange */
   border-radius: 50%;
   font-size: 13px;      /* 15px → 13px */
   font-weight: 700;
@@ -92,7 +92,7 @@
 .process-card h3 {
   font-size: 26px;
   font-weight: 800;
-  color: #0e5f8a;
+  color: #1A0066;              /* Deep Navy Primary */
   margin-bottom: 22px;
 }
 

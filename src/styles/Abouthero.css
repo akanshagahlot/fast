@@ -1,6 +1,6 @@
 /* ==========================================
    Abouthero.css
-   Brand: #1E5F8A (Blue) | #F47B20 (Orange)
+   Brand: #1A0066 (Blue) | #FF6600 (Orange)
    Font: Inter (headings) + Roboto (body)
    Note: Inter & Roboto loaded globally via globals.css
 ========================================== */
@@ -47,7 +47,7 @@
   width: 420px;
   height: 420px;
   border-radius: 50%;
-  background: rgba(244, 123, 32, 0.13);
+  background: rgba(255, 102, 0, 0.13);
   border: none;
   z-index: 2;
   pointer-events: none;
@@ -60,7 +60,7 @@
   width: 380px;
   height: 380px;
   border-radius: 50%;
-  background: rgba(30, 95, 138, 0.1);
+  background: rgba(26, 0, 102, 0.1);
   border: none;
   z-index: 2;
   pointer-events: none;
@@ -82,8 +82,8 @@
   background: linear-gradient(
     90deg,
     transparent 0%,
-    #f47b20     30%,
-    #f9a461     60%,
+    #ff6600     30%,
+    #ff944d     60%,
     transparent 100%
   );
 }
@@ -109,7 +109,7 @@
   align-items: center;
   gap: 8px;
   background: transparent;
-  border: 1.5px solid rgba(244, 123, 32, 0.5);
+  border: 1.5px solid rgba(255, 102, 0, 0.5);
   color: #1a2332;
   font-family: "Roboto", sans-serif;
   font-size: 11px;
@@ -124,7 +124,7 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #f47b20;
+  background: #ff6600;
   display: inline-block;
   animation: aboutPulse 2s ease-in-out infinite;
 }
@@ -147,7 +147,7 @@
 }
 
 .about-orange {
-  color: #f47b20;
+  color: #ff6600;
 }
 
 /* ── DESC ── */
@@ -173,11 +173,11 @@
   width: 100%;
   max-width: 900px;
   background: #ffffff;
-  border: 1.5px solid rgba(30, 95, 138, 0.12);
+  border: 1.5px solid rgba(26, 0, 102, 0.12);
   border-radius: 16px;
   overflow: hidden;
   margin-top: 8px;
-  box-shadow: 0 8px 30px rgba(30, 95, 138, 0.08);
+  box-shadow: 0 8px 30px rgba(26, 0, 102, 0.08);
 }
 
 .about-stat-card {
@@ -186,8 +186,8 @@
   flex-direction: column;
   align-items: center;
   gap: 6px;
-  border-right: 1.5px solid rgba(30, 95, 138, 0.1);
-  border-top: 3px solid var(--orange, #f47b20);
+  border-right: 1.5px solid rgba(26, 0, 102, 0.1);
+  border-top: 3px solid var(--orange, #ff6600);
   transition: background 0.25s;
 }
 
@@ -196,14 +196,14 @@
 }
 
 .about-stat-card:hover {
-  background: rgba(244, 123, 32, 0.05);
+  background: rgba(255, 102, 0, 0.05);
 }
 
 .about-stat-value {
   font-family: "Inter", sans-serif;
   font-size: 28px;
   font-weight: 900;
-  color: #1e5f8a;
+  color: #1a0066;
   line-height: 1;
 }
 
@@ -241,7 +241,7 @@
 .about-scroll-line {
   width: 1px;
   height: 44px;
-  background: linear-gradient(to bottom, rgba(30, 95, 138, 0.5), transparent);
+  background: linear-gradient(to bottom, rgba(26, 0, 102, 0.5), transparent);
   animation: aboutLinePulse 2s ease infinite;
 }
 
@@ -255,7 +255,7 @@
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.18em;
-  color: rgba(30, 95, 138, 0.5);
+  color: rgba(26, 0, 102, 0.5);
   text-transform: uppercase;
 }
 
@@ -285,7 +285,7 @@
   .about-stat-card:nth-child(2) { border-right: none; }
   .about-stat-card:nth-child(1),
   .about-stat-card:nth-child(2) {
-    border-bottom: 1px solid rgba(30, 95, 138, 0.1);
+    border-bottom: 1px solid rgba(26, 0, 102, 0.1);
   }
 
   .about-ring-left,
@@ -295,4 +295,19 @@
 @media (max-width: 480px) {
   .about-heading   { font-size: 28px; letter-spacing: 0; }
   .about-container { padding: 70px 20px 80px; }
+}
+
+/* ✅ About main image */
+.about-main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 24px;
+}
+
+/* Hide truck emoji when real image loads */
+.truck-icon,
+.image-placeholder p {
+  display: none;
 }

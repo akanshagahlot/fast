@@ -11,19 +11,21 @@ export default function AboutCTA() {
         <span className="acta-tag">Ready to Move?</span>
 
         <h2 className="acta-title">
-          Let's Make Your Next Move <span className="acta-orange">Smooth &amp; Stress-Free</span>
+          Move with <span className="acta-orange">Fast Professional Cargo Movers</span>
         </h2>
 
         <p className="acta-desc">
-          Get a free quote in minutes. Our team is available 24/7 to plan
-          your relocation — anywhere in India.
+          Get a free quote in minutes. Our expert team is available 24/7 to
+          provide reliable door to door parcel service, taking care of your 
+          parcel services near me and delivery courier service needs safely across India.
         </p>
 
         <div className="acta-buttons">
           <Link href="/contact" className="acta-btn-primary">
             Get Free Quote →
           </Link>
-          <a href="tel:+919876543210" className="acta-btn-secondary">
+
+          <a href="tel:+919265057478" className="acta-btn-secondary">
             📞 Call Us Now
           </a>
         </div>
@@ -32,8 +34,10 @@ export default function AboutCTA() {
         <div className="acta-badges">
           <span className="acta-badge-item">✔ No Hidden Charges</span>
           <span className="acta-badge-item">✔ Verified Professionals</span>
-          <span className="acta-badge-item">✔ 50,000+ Happy Customers</span>
+          <span className="acta-badge-item">✔ Safe & Secure Relocation</span>
         </div>
+
+       
       </div>
     </section>
   );

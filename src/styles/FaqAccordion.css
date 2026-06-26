@@ -1,11 +1,11 @@
 /* ===== FaqAccordion.css ===== */
 
 :root {
-  --faq-blue: #1e5f8a;
-  --faq-blue-dark: #154870;
-  --faq-blue-light: #e8f2f9;
-  --faq-orange: #f47b20;
-  --faq-orange-light: #fff4ec;
+  --faq-blue: #1A0066;          /* Deep Navy Primary */
+  --faq-blue-dark: #100040;     /* Deep Navy Darkened */
+  --faq-blue-light: #EAE6F7;    /* Deep Navy Tinted Light */
+  --faq-orange: #FF6600;        /* Vibrant Cargo Orange */
+  --faq-orange-light: #FFF0E6;  /* Cargo Orange Soft Background */
   --faq-white: #ffffff;
   --faq-text: #1a2940;
   --faq-muted: #6b7a99;
@@ -44,7 +44,7 @@
   padding: 6px 16px;
   border-radius: 50px;
   margin-bottom: 16px;
-  border: 1px solid rgba(244, 123, 32, 0.2);
+  border: 1px solid rgba(255, 102, 0, 0.2);
   font-family: "Inter", sans-serif;
 }
 
@@ -106,7 +106,7 @@
   background: var(--faq-blue);
   border-color: var(--faq-blue);
   color: var(--faq-white);
-  box-shadow: 0 6px 18px rgba(30, 95, 138, 0.25);
+  box-shadow: 0 6px 18px rgba(26, 0, 102, 0.25);
 }
 
 .faq-acc-tab__icon {
@@ -144,13 +144,13 @@
 }
 
 .faq-acc-item:hover {
-  border-color: rgba(30, 95, 138, 0.3);
-  box-shadow: 0 4px 20px rgba(30, 95, 138, 0.08);
+  border-color: rgba(26, 0, 102, 0.3);
+  box-shadow: 0 4px 20px rgba(26, 0, 102, 0.08);
 }
 
 .faq-acc-item--open {
   border-color: var(--faq-blue);
-  box-shadow: 0 8px 28px rgba(30, 95, 138, 0.12);
+  box-shadow: 0 8px 28px rgba(26, 0, 102, 0.12);
 }
 
 /* Question button */
@@ -168,7 +168,7 @@
 }
 
 .faq-acc-item--open .faq-acc-item__question {
-  background: rgba(30, 95, 138, 0.04);
+  background: rgba(26, 0, 102, 0.04);
 }
 
 .faq-acc-item__num {
@@ -271,7 +271,7 @@
 .faq-acc-side__img-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(30, 95, 138, 0.7), transparent 50%);
+  background: linear-gradient(to top, rgba(26, 0, 102, 0.7), transparent 50%);
 }
 
 .faq-acc-side__badge {
@@ -334,7 +334,7 @@
 }
 
 .faq-acc-side__card-btn:hover {
-  background: #ff9a47;
+  background: #FF8533; /* Adjusted inline hover to complement Cargo Orange */
   transform: scale(1.03);
 }
 

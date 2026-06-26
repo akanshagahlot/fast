@@ -6,7 +6,7 @@
 
 .ch-section {
   position: relative;
-  background: linear-gradient(120deg, #0e3349 0%, #1E5F8A 60%, #154869 100%);
+  background: linear-gradient(120deg, #080020 0%, #1a0066 60%, #100040 100%);
   min-height: 420px;
   display: flex;
   align-items: center;
@@ -36,7 +36,7 @@
   left: 0;
   right: 0;
   height: 5px;
-  background: linear-gradient(90deg, #F47B20, #ffa04d, #F47B20);
+  background: linear-gradient(90deg, #ff6600, #ff944d, #ff6600);
 }
 
 .ch-content {
@@ -59,8 +59,8 @@
 .ch-tag {
   display: block;
   width: fit-content;
-  background: rgba(244, 123, 32, 0.2);
-  color: #F47B20;
+  background: rgba(255, 102, 0, 0.2);
+  color: #ff6600;
   font-family: "Roboto", sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
@@ -68,7 +68,7 @@
   text-transform: uppercase;
   padding: 6px 20px;
   border-radius: 50px;
-  border: 1.5px solid rgba(244, 123, 32, 0.45);
+  border: 1.5px solid rgba(255, 102, 0, 0.45);
   margin-bottom: 18px;
 }
 
@@ -83,7 +83,7 @@
   margin: 0 0 20px;
 }
 
-.ch-orange { color: #F47B20; }
+.ch-orange { color: #ff6600; }
 
 .ch-breadcrumb {
   font-family: "Roboto", sans-serif;
@@ -101,15 +101,15 @@
   transition: color 0.2s;
 }
 
-.ch-breadcrumb a:hover { color: #F47B20; }
+.ch-breadcrumb a:hover { color: #ff6600; }
 
 .ch-sep {
-  color: #F47B20;
+  color: #ff6600;
   font-weight: 700;
 }
 
 .ch-active {
-  color: #F47B20;
+  color: #ff6600;
   font-weight: 700;
 }
 

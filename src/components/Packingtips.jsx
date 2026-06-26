@@ -23,16 +23,16 @@ export default function PackingTipsPage() {
         <div className="bp-hero-content">
           <span className="bp-hero-category">Packing</span>
           <h1 className="bp-hero-title">
-            Professional <span className="bp-orange">Packing Tips</span> for Safe Moving
+            Professional <span className="bp-orange">Packing &amp; Moving Services</span> for Safe Moving
           </h1>
-          <p className="bp-hero-sub">Apna Saman Safely Pack Karo</p>
+          <p className="bp-hero-sub">Ensure Your Belongings Are Safely Packed</p>
           <div className="bp-hero-meta">
             <span className="bp-meta-item">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <circle cx="12" cy="8" r="4"/>
                 <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
               </svg>
-              Nex Go Team
+              Fast Professional Cargo Movers Team
             </span>
             <span className="bp-meta-item">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -61,24 +61,23 @@ export default function PackingTipsPage() {
           <article className="bp-article">
 
             <p className="bp-intro">
-              Sahi packing se aapka saman <strong>safe aur secure</strong> rehta hai move ke dauran.
-              Professional packers ke yeh tried-and-tested tips follow karo aur apni shifting
-              bilkul stress-free banao.
+              Proper packing ensures your goods remain <strong>safe and secure</strong> during the move. 
+              Follow these tried-and-tested tips from professional packers to make your shifting completely stress-free.
             </p>
 
             {/* Tip 1 */}
             <div className="bp-step">
               <div className="bp-step-num">01</div>
               <div className="bp-step-content">
-                <h2 className="bp-step-title">Sahi Materials Istemal Karo</h2>
-                <p>Packing ki quality directly saman ki safety par depend karti hai. Yeh materials zarur use karo:</p>
+                <h2 className="bp-step-title">Use High-Quality Packing Materials</h2>
+                <p>The safety of your goods depends entirely on the quality of the materials used. Ensure you have these items ready:</p>
                 <ul className="bp-list">
                   <li>Strong double-wall cardboard boxes</li>
-                  <li>Bubble wrap — fragile items ke liye</li>
-                  <li>Packing peanuts ya crumpled newspaper filling ke liye</li>
-                  <li>Heavy-duty packing tape (transparent)</li>
-                  <li>Permanent markers labeling ke liye</li>
-                  <li>Stretch wrap — furniture ke liye</li>
+                  <li>Bubble wrap — for fragile items</li>
+                  <li>Packing peanuts or crumpled newspaper for filling gaps</li>
+                  <li>Heavy-duty transparent packing tape</li>
+                  <li>Permanent markers for clear labeling</li>
+                  <li>Stretch wrap — for furniture protection</li>
                 </ul>
               </div>
             </div>
@@ -87,14 +86,13 @@ export default function PackingTipsPage() {
             <div className="bp-step">
               <div className="bp-step-num">02</div>
               <div className="bp-step-content">
-                <h2 className="bp-step-title">Room-by-Room Pack Karo</h2>
-                <p>Ek saath sab kuch pack karne ki koshish mat karo. Ek room complete karo phir agla shuru karo.
-                   Har box par clearly likho:</p>
+                <h2 className="bp-step-title">Pack Room-by-Room for Organized Shifting</h2>
+                <p>Do not try to pack everything at once. Complete one room before moving to the next. Ensure every box clearly indicates:</p>
                 <ul className="bp-list">
-                  <li>Room ka naam (e.g., "Kitchen", "Master Bedroom")</li>
-                  <li>Content brief (e.g., "Utensils", "Books")</li>
-                  <li>Handling instruction (e.g., "FRAGILE", "THIS SIDE UP")</li>
-                  <li>Priority level (unpack karne ki order)</li>
+                  <li>Room name (e.g., "Kitchen", "Master Bedroom")</li>
+                  <li>Brief description of contents (e.g., "Utensils", "Books")</li>
+                  <li>Handling instructions (e.g., "FRAGILE", "THIS SIDE UP")</li>
+                  <li>Priority level for efficient unpacking</li>
                 </ul>
               </div>
             </div>
@@ -103,8 +101,8 @@ export default function PackingTipsPage() {
             <div className="bp-step">
               <div className="bp-step-num">03</div>
               <div className="bp-step-content">
-                <h2 className="bp-step-title">Fragile Items Special Care</h2>
-                <p>Glass, crockery aur electronics ke liye extra precaution lena zaroori hai:</p>
+                <h2 className="bp-step-title">Special Care for Fragile Cargo</h2>
+                <p>Glassware, premium crockery, and electronics require extra precautions during transit:</p>
                 <div className="bp-tip-boxes">
 
                   <div className="bp-tip-box">
@@ -114,7 +112,7 @@ export default function PackingTipsPage() {
                       className="bp-tip-icon"
                     />
                     <strong>Crockery</strong>
-                    <p>Har plate ko individually wrap karo. Plates ko flat nahi, khade rakho — kam chances of breakage.</p>
+                    <p>Wrap each plate individually. Stack plates vertically rather than flat to significantly reduce the risk of breakage.</p>
                   </div>
 
                   <div className="bp-tip-box">
@@ -124,7 +122,7 @@ export default function PackingTipsPage() {
                       className="bp-tip-icon"
                     />
                     <strong>Electronics</strong>
-                    <p>Original packaging best hai. Agar na ho toh zyada bubble wrap aur snug fit box use karo.</p>
+                    <p>Original packaging offers the best protection. If unavailable, use ample bubble wrap and a snug-fitting box.</p>
                   </div>
 
                   <div className="bp-tip-box">
@@ -134,7 +132,7 @@ export default function PackingTipsPage() {
                       className="bp-tip-icon"
                     />
                     <strong>Plants</strong>
-                    <p>Move se 2 din pehle paani dena band karo. Khule top ke saath light cardboard box mein rakho.</p>
+                    <p>Stop watering plants two days before the move. Place them in open-top cardboard boxes for adequate ventilation.</p>
                   </div>
 
                 </div>
@@ -145,14 +143,14 @@ export default function PackingTipsPage() {
             <div className="bp-step">
               <div className="bp-step-num">04</div>
               <div className="bp-step-content">
-                <h2 className="bp-step-title">Heavy aur Light Ka Balance</h2>
-                <p>Box packing ka golden rule:</p>
+                <h2 className="bp-step-title">Balance Heavy and Light Items</h2>
+                <p>Follow the golden rule of efficient box packing:</p>
                 <ul className="bp-list">
-                  <li>Heavy items (books, tools) — <strong>chhote boxes</strong> mein</li>
-                  <li>Light items (pillows, linens) — <strong>bade boxes</strong> mein</li>
-                  <li>Box ke neeche heavy, upar light items rakho</li>
-                  <li>Box full bharao — half-empty box crush hota hai</li>
-                  <li>Ek box max 20-25 kg se zyada nahi hona chahiye</li>
+                  <li>Heavy items (books, tools) — pack in <strong>smaller boxes</strong></li>
+                  <li>Light items (pillows, linens) — pack in <strong>larger boxes</strong></li>
+                  <li>Place heavy items at the bottom and lighter items on top</li>
+                  <li>Fill boxes completely — partially empty boxes can easily crush</li>
+                  <li>Keep individual box weights under 20-25 kg for safer handling</li>
                 </ul>
               </div>
             </div>
@@ -161,16 +159,16 @@ export default function PackingTipsPage() {
             <div className="bp-step">
               <div className="bp-step-num">05</div>
               <div className="bp-step-content">
-                <h2 className="bp-step-title">Essentials Box Alag Rakho</h2>
-                <p>Ek "First Night Box" banao jo aap khud carry karo. Ismein yeh cheezein rakho:</p>
+                <h2 className="bp-step-title">Keep an Essentials Box for Door to Door Delivery</h2>
+                <p>Prepare a separate "First Night Box" to carry with you personally, containing:</p>
                 <ul className="bp-list">
-                  <li>Important documents (Aadhaar, passport, property papers)</li>
-                  <li>Phone charger aur laptop</li>
-                  <li>2 din ke kapde</li>
-                  <li>Basic toiletries</li>
-                  <li>Medicines</li>
-                  <li>Snacks aur paani</li>
-                  <li>Cash aur cards</li>
+                  <li>Important documents (ID proofs, passports, property records)</li>
+                  <li>Phone chargers and laptops</li>
+                  <li>A change of clothes for a couple of days</li>
+                  <li>Basic personal toiletries</li>
+                  <li>Necessary medicines</li>
+                  <li>Snacks and drinking water</li>
+                  <li>Cash and essential cards</li>
                 </ul>
               </div>
             </div>
@@ -178,8 +176,8 @@ export default function PackingTipsPage() {
             {/* CTA */}
             <div className="bp-cta">
               <div className="bp-cta-content">
-                <h3>Expert Packing Help Chahiye?</h3>
-                <p>Nex Go ke trained packers aapka poora saman safely pack aur deliver karenge.</p>
+                <h3>Need Help? Goods Transport Service Near Me</h3>
+                <p>Fast Professional Cargo Movers provides comprehensive packing and moving solutions across Ahmedabad and India.</p>
                 <Link href="/contact" className="bp-cta-btn">Book Packers Now →</Link>
               </div>
             </div>

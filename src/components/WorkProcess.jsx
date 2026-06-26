@@ -5,19 +5,19 @@ export default function WorkProcess() {
     {
       number: "1",
       icon: "/images/working/move.png",
-      title: "Move Planning",
+      title: "Packing & Moving",
       desc: "Our experts plan every move carefully so packing, loading and scheduling stay organized and nothing delays your shifting.",
     },
     {
       number: "2",
       icon: "/images/working/transport.png",
-      title: "Safe Transport",
+      title: "Goods Transport",
       desc: "Our trained drivers transport your goods securely using proper handling methods so every item reaches the destination safely.",
     },
     {
       number: "3",
       icon: "/images/working/delivery.png",
-      title: "Delivery Done",
+      title: "Door to Door Delivery",
       desc: "After careful packing and transport, our team ensures timely delivery so clients receive their goods complete and damage free.",
     },
   ];
@@ -40,10 +40,10 @@ export default function WorkProcess() {
 
                 <img
                   src={step.icon}
-                  alt={step.title}
+                  alt={`${step.title} - Fast Professional Cargo Movers`}
                   className="process-icon-img"
-                  width={50}       // ✅ yahan change kiya
-                  height={50}      // ✅ yahan change kiya
+                  width={50}
+                  height={50}
                 />
               </div>
 

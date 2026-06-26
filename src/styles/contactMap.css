@@ -22,9 +22,9 @@
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #F47B20;
-  background: rgba(244, 123, 32, 0.1);
-  border: 1.5px solid rgba(244, 123, 32, 0.35);
+  color: #ff6600;
+  background: rgba(255, 102, 0, 0.1);
+  border: 1.5px solid rgba(255, 102, 0, 0.35);
   padding: 6px 20px;
   border-radius: 50px;
   margin-bottom: 14px;
@@ -40,14 +40,14 @@
   margin: 0;
 }
 
-.cm-orange { color: #F47B20; }
+.cm-orange { color: #ff6600; }
 
 .cm-map-wrap {
   width: 100%;
   height: 450px;
   border-radius: 22px 22px 0 0;
   overflow: hidden;
-  box-shadow: 0 -6px 30px rgba(30, 95, 138, 0.12);
+  box-shadow: 0 -6px 30px rgba(26, 0, 102, 0.12);
 }
 
 @media (max-width: 600px) {

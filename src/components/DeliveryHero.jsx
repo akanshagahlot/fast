@@ -29,18 +29,19 @@ const DeliveryHero = () => {
 
           <div className="dh-tag">
             <span className="dh-tag__dot"></span>
-            Choose Your Plan
+            Packing Moving Services
           </div>
 
           <h1 className="dh-title">
-            Amazing <span className="dh-title--accent">Service</span>
+            Goods Transport <span className="dh-title--accent">Services</span>
             <br />
-            Plans for Every Need
+            in Ahmedabad &amp; India
           </h1>
 
           <p className="dh-subtitle">
-            From budget-friendly basic delivery to ultra-fast premium relocation,
-            Nex Go has a package crafted perfectly for your timeline and budget.
+            From budget-friendly moving solutions to premium relocation services,
+            Fast Professional Cargo Movers offers packages designed for every
+            requirement and budget.
           </p>
 
           <div className="dh-cta-row">
@@ -57,7 +58,7 @@ const DeliveryHero = () => {
               "No Hidden Charges",
               "Fully Insured",
               "Real-Time Tracking",
-              "4.9 Star Rating",
+              "Safe & Secure Delivery",
             ].map((text, i) => (
               <div className="dh-highlight" key={i}>
                 <span className="dh-highlight__dot"></span>
@@ -72,16 +73,15 @@ const DeliveryHero = () => {
             <div className="dh-promo-card__top">
               <img
                 src="/images/delivery/hero.png"
-                alt="Delivery Service"
+                alt="Fast Professional Cargo Movers"
                 className="dh-promo-card__img"
               />
-              
             </div>
 
             <div className="dh-promo-card__body">
               <div className="dh-promo-card__plan">
                 <span className="dh-promo-card__dot"></span>
-                Fast Delivery
+                Near Me Packers and Movers
               </div>
 
               <div className="dh-promo-card__time">
@@ -90,16 +90,14 @@ const DeliveryHero = () => {
               </div>
 
               <p className="dh-promo-card__desc">
-                Priority packing, faster transport, real-time updates.
+                Priority packing, faster transportation, and real-time updates
+                for a smooth relocation experience.
               </p>
 
               <a href="#packages" className="dh-promo-card__btn">
                 See All Plans →
               </a>
             </div>
-
-            
-            
           </div>
         </div>
       </div>

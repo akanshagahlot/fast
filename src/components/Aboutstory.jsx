@@ -1,10 +1,10 @@
 import "../styles/Aboutstory.css";
 
 const milestones = [
-  { year: "2012", text: "Founded in Jodhpur with a single truck and a big dream." },
-  { year: "2016", text: "Expanded to 50+ cities across Rajasthan & Gujarat." },
-  { year: "2020", text: "Crossed 30,000 successful relocations across India." },
-  { year: "2024", text: "Now serving 200+ cities with a fleet of 120+ vehicles." },
+  { year: "2012", text: "Founded in Ahmedabad with a commitment to provide reliable cargo and relocation services." },
+  { year: "2016", text: "Expanded operations across Gujarat and neighboring states." },
+  { year: "2020", text: "Successfully completed thousands of household and commercial relocations." },
+  { year: "2024", text: "Serving customers across India with professional moving and cargo solutions." },
 ];
 
 export default function AboutStory() {
@@ -18,10 +18,10 @@ export default function AboutStory() {
             <div className="as-image-inner">
               <img
                 src="/images/about/story.png"
-                alt="Nex Go Moving Truck"
+                alt="Fast Professional Cargo Movers Truck"
                 className="as-main-img"
               />
-              <p className="as-img-tagline">Moving India Since 2012</p>
+              <p className="as-img-tagline">Serving India Since 2012</p>
             </div>
 
             {/* Floating badge */}
@@ -49,19 +49,19 @@ export default function AboutStory() {
         <div className="as-text">
           <span className="as-tag">Our Story</span>
           <h2 className="as-title">
-            From One Truck to <span className="as-orange">India's Most Trusted</span> Moving Partner
+            From Local Service to <span className="as-orange">India's Trusted</span> Shifting Partner
           </h2>
           <p className="as-desc">
-            Nex Go was born in 2012 with a single purpose — to make relocation
-            stress-free for every family and business in India. What started as
-            a small operation in Jodhpur has grown into a pan-India network
-            trusted by over 50,000 customers.
+            Fast Professional Cargo Movers was established with one mission —
+            to provide safe, reliable, and stress-free relocation services for
+            families and businesses. Based in Ahmedabad, we offer professional
+            truck transport in ahmedabad customers trust with complete customer satisfaction.
           </p>
           <p className="as-desc">
-            Every move we do is personal to us. We understand that your
-            belongings carry memories, and our team treats each item with the
-            same care they would their own. That philosophy has driven us for
-            12 years — and it always will.
+            We understand that every move is important. Our experienced team
+            handles your belongings with utmost care and professionalism,
+            ensuring secure packing, safe transportation, and timely delivery
+            through our delivery courier service and goods transport service near me.
           </p>
 
           {/* Mission, Vision, Values & Promise cards — 2×2 grid */}
@@ -75,7 +75,10 @@ export default function AboutStory() {
                 height={40}
               />
               <h4>Our Mission</h4>
-              <p>Deliver safe, affordable, and on-time relocation services to every corner of India.</p>
+              <p>
+                Deliver safe, affordable, and reliable packing moving services and
+                parcel services near me across India.
+              </p>
             </div>
 
             <div className="as-mv-card">
@@ -87,7 +90,10 @@ export default function AboutStory() {
                 height={40}
               />
               <h4>Our Vision</h4>
-              <p>To become India's No.1 trusted logistics and moving company by 2030.</p>
+              <p>
+                To become one of India's most trusted cargo and near me packers and movers
+                through quality and customer satisfaction.
+              </p>
             </div>
 
             <div className="as-mv-card">
@@ -99,7 +105,10 @@ export default function AboutStory() {
                 height={40}
               />
               <h4>Our Values</h4>
-              <p>Integrity, transparency, and customer-first thinking guide every decision we make.</p>
+              <p>
+                Integrity, transparency, safety, and customer-first service are
+                the foundations of our business.
+              </p>
             </div>
 
             <div className="as-mv-card">
@@ -111,7 +120,10 @@ export default function AboutStory() {
                 height={40}
               />
               <h4>Our Promise</h4>
-              <p>Zero damage, on-time delivery, and full support — from first call to final placement.</p>
+              <p>
+                Safe packing, secure transportation, timely delivery, and complete
+                support from start to finish.
+              </p>
             </div>
           </div>
         </div>

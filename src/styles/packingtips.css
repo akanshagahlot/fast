@@ -1,6 +1,6 @@
 /* ================================
    PackingTips.css
-   Brand: #1E5F8A | #F47B20
+   Brand: #1A0066 | #FF6600
 ================================ */
 
 .blog-post * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -34,9 +34,9 @@
   z-index: 1;
   background: linear-gradient(
     135deg,
-    rgba(9,  31, 51,  0.94) 0%,
-    rgba(30, 95, 138, 0.82) 55%,
-    rgba(13, 59, 94,  0.92) 100%
+    rgba(10, 0, 40, 0.94) 0%,   /* Extra Dark Deep Navy */
+    rgba(26, 0, 102, 0.82) 55%,  /* Primary Deep Navy */
+    rgba(16, 0, 64, 0.92) 100%   /* Darkened Deep Navy */
   );
 }
 
@@ -64,8 +64,8 @@
   background: linear-gradient(
     90deg,
     transparent 0%,
-    #f47b20     30%,
-    #f9a461     60%,
+    #FF6600     30%,
+    #FF8533     60%,
     transparent 100%
   );
 }
@@ -84,7 +84,7 @@
 
 .bp-hero-category {
   display: inline-block;
-  background: #f47b20;
+  background: #FF6600;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
@@ -105,7 +105,7 @@
   max-width: 720px;
 }
 
-.bp-orange { color: #f47b20; }
+.bp-orange { color: #FF6600; }
 
 .bp-hero-sub {
   font-family: "Montserrat", sans-serif;
@@ -130,7 +130,7 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
-.bp-meta-item svg { color: #f47b20; }
+.bp-meta-item svg { color: #FF6600; }
 
 .bp-breadcrumb {
   display: flex;
@@ -147,8 +147,8 @@
   transition: color 0.2s;
 }
 .bp-bc-link:hover { color: #fff; }
-.bp-bc-sep        { color: #f47b20; }
-.bp-bc-active     { color: #f47b20; font-weight: 700; }
+.bp-bc-sep        { color: #FF6600; }
+.bp-bc-active     { color: #FF6600; font-weight: 700; }
 
 /* ══════════ BODY ══════════ */
 .bp-body {
@@ -182,11 +182,11 @@
   font-size: 16px;
   line-height: 1.85;
   color: #444;
-  border-left: 4px solid #f47b20;
+  border-left: 4px solid #FF6600;
   padding-left: 20px;
 }
 
-.bp-intro strong { color: #1e5f8a; }
+.bp-intro strong { color: #1A0066; }
 
 /* STEPS */
 .bp-step {
@@ -200,7 +200,7 @@
   width: 52px;
   height: 52px;
   border-radius: 12px;
-  background: linear-gradient(135deg, #1e5f8a, #0d3b5e);
+  background: linear-gradient(135deg, #1A0066, #100040);
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -221,7 +221,7 @@
   font-family: "Montserrat", "Arial Black", sans-serif;
   font-size: 20px;
   font-weight: 800;
-  color: #0d3b5e;
+  color: #100040;
 }
 
 .bp-step-content > p {
@@ -253,11 +253,11 @@
   content: "→";
   position: absolute;
   left: 0;
-  color: #f47b20;
+  color: #FF6600;
   font-weight: 700;
 }
 
-.bp-list li strong { color: #1e5f8a; }
+.bp-list li strong { color: #1A0066; }
 
 /* TIP BOXES */
 .bp-tip-boxes {
@@ -286,8 +286,8 @@
 }
 
 .bp-tip-box:hover {
-  border-color: #f47b20;
-  box-shadow: 0 4px 14px rgba(244, 123, 32, 0.12);
+  border-color: #FF6600;
+  box-shadow: 0 4px 14px rgba(255, 102, 0, 0.12);
 }
 
 .bp-tip-emoji { font-size: 28px; }
@@ -296,7 +296,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 700;
-  color: #0d3b5e;
+  color: #100040;
 }
 
 .bp-tip-box p {
@@ -308,7 +308,7 @@
 
 /* CTA */
 .bp-cta {
-  background: linear-gradient(135deg, #1e5f8a, #0d3b5e);
+  background: linear-gradient(135deg, #1A0066, #100040);
   border-radius: 14px;
   overflow: hidden;
 }
@@ -337,7 +337,7 @@
 
 .bp-cta-btn {
   display: inline-block;
-  background: #f47b20;
+  background: #FF6600;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -350,7 +350,7 @@
 }
 
 .bp-cta-btn:hover {
-  background: #d9650e;
+  background: #CC5200; /* Darkened variant of Cargo Orange */
   transform: translateY(-2px);
 }
 
@@ -377,8 +377,8 @@
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 800;
-  color: #0d3b5e;
-  border-bottom: 2px solid #f47b20;
+  color: #100040;
+  border-bottom: 2px solid #FF6600;
   padding-bottom: 10px;
 }
 
@@ -394,8 +394,8 @@
   transition: color 0.2s;
 }
 
-.bp-sidebar-link:hover  { color: #f47b20; }
-.bp-sidebar-arrow       { color: #f47b20; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
+.bp-sidebar-link:hover  { color: #FF6600; }
+.bp-sidebar-arrow       { color: #FF6600; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
 
 .bp-sidebar-stats {
   display: grid;
@@ -417,7 +417,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 900;
-  color: #f47b20;
+  color: #FF6600;
 }
 
 .bp-ss-label {

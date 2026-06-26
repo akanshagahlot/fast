@@ -5,7 +5,7 @@ import "../styles/Whychooseus.css";
 const features = [
   {
     id: 1,
-    title: "Safety & Reliability",
+    title: "Goods Transport Services",
     desc: "Experienced staff deliver secure transport with careful packing, smooth loading, and damage-free shifting for all customers.",
     image: "/images/whychooseus/safety.png",
     cardIcon: "/images/whychooseus/isafety.png",
@@ -13,7 +13,7 @@ const features = [
   },
   {
     id: 2,
-    title: "On-Time Delivery",
+    title: "Door to Door Parcel Service",
     desc: "We guarantee timely relocation with real-time tracking and dedicated logistics coordination across all routes.",
     image: "/images/whychooseus/ontime.png",
     cardIcon: "/images/whychooseus/iontime.png",
@@ -31,13 +31,13 @@ const features = [
     id: 4,
     title: "Expert Team",
     desc: "Our trained professionals handle everything from packing delicate items to heavy furniture with precision and care.",
-    image: "/images/whychooseus/team.jpg",
+    image: "/images/whychooseus/team.png",
     cardIcon: "/images/whychooseus/iteam.png",
     tag: "450+ Experts",
   },
   {
     id: 5,
-    title: "Premium Packing",
+    title: "Packing & Moving Services",
     desc: "We use industry-grade packing materials ensuring zero damage during transit, regardless of distance or item type.",
     image: "/images/whychooseus/packing.png",
     cardIcon: "/images/whychooseus/ipacking.png",
@@ -47,7 +47,7 @@ const features = [
     id: 6,
     title: "Pan-India Network",
     desc: "With branches across 200+ cities, we ensure seamless relocation anywhere in India with local expertise everywhere.",
-    image: "/images/whychooseus/network.jpg",
+    image: "/images/whychooseus/network.png",
     cardIcon: "/images/whychooseus/inetwork.png",
     tag: "200+ Cities",
   },
@@ -90,7 +90,7 @@ const WhyChooseUs = () => {
           </h2>
           <p className="wcu-subtitle">
             Thousands of families and businesses trust us every year. Here&apos;s
-            why Nex Go stands above the rest.
+            why Fast Professional Cargo Movers stands above the rest.
           </p>
         </div>
 
@@ -148,8 +148,6 @@ const WhyChooseUs = () => {
             </div>
           ))}
         </div>
-
-        
 
       </div>
     </section>
